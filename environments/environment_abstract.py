@@ -2,6 +2,8 @@ from abc import ABC, abstractmethod
 import numpy as np
 from typing import List, Tuple
 from random import randrange
+import pandas as pd
+from sympy.combinatorics import Permutation 
 import torch.nn as nn
 
 
@@ -17,7 +19,7 @@ class State(ABC):
 
 class Environment(ABC):
     def __init__(self):
-        self.dtype = np.float
+        self.dtype = np.float64
         self.fixed_actions: bool = True
 
     @abstractmethod
@@ -161,3 +163,54 @@ class Environment(ABC):
         tc_l: List[np.ndarray] = [tc[i] for i in range(num_states)]
 
         return states_exp, tc_l
+
+
+class SantaState(State):
+    __slots__ = ['state', 'hash']
+
+    def __init__(self, state:np.ndarray):
+        if isinstance(state, list):
+            state = np.array(state)
+        self.state = state
+        self.hash = None
+
+    def __hash__(self):
+        if self.hash is None:
+            self.hash = hash(self.state.tostring())
+
+        return self.hash
+
+    def __eq__(self, other):
+        return np.array_equal(self.state, other.state)
+
+
+class SantaEnvironment(Environment):
+    def __init__(self, df_info_path, df_puzzles_path):
+        super().__init__()
+        # initialize moves and goal state
+        self._set_goal_state(df_puzzles_path)
+        self._init_mappings()
+        
+    def _set_goal_state(self, df_puzzles_path):
+        df_puzzles = pd.read_csv(df_puzzles_path)
+        sol_state_str = df_puzzles[df_puzzles['puzzle_type'] == self.__name__].iloc[0]['solution_state']
+        sol_state_list = sol_state_str.split(';')
+        
+        # get mapping color -> int
+        self._letter2int = {}
+        i = 0
+        for color in sol_state_list:
+            if color not in self._letter2int:
+                self._letter2int[color] = i
+                i += 1
+        
+        self.goal_state = np.array([self._letter2int[color] for color in sol_state_list])
+    
+    def _init_mappings(self):
+        self._int2moves = dict(zip(range(len(self._moves)), self._moves.keys()))
+        self._moves2int = {v: k for k, v in self._int2moves.items()}
+    
+    def get_action(self, action: int) -> Permutation:
+        return self._moves[self._int2moves[action]]
+        
+        

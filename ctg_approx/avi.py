@@ -137,6 +137,7 @@ def do_update(back_max: int, update_num: int, env: Environment, max_update_steps
     print("Updating cost-to-go with value iteration")
     if max_update_steps > 1:
         print("Using %s with %i step(s) to add extra states to training set" % (update_method.upper(), update_steps))
+
     updater: Updater = Updater(env, num_states, back_max, heur_fn_i_q, heur_fn_o_qs, update_steps, update_method,
                                update_batch_size=10000, eps_max=eps_max)
 
@@ -183,7 +184,7 @@ def main():
 
     # environment
     env: Environment = env_utils.get_environment(args_dict['env'])
-
+    
     # get device
     on_gpu: bool
     device: torch.device

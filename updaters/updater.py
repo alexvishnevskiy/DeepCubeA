@@ -103,7 +103,7 @@ class Updater:
             num_states_proc: int = num_states_per_proc[proc_id]
             if num_states_proc == 0:
                 continue
-
+            
             proc = ctx.Process(target=update_runner, args=(num_states_proc, back_max, update_batch_size,
                                                            heur_fn_i_q, heur_fn_o_qs[proc_id], proc_id, env,
                                                            self.result_queue, num_steps, update_method, eps_max))
@@ -129,7 +129,7 @@ class Updater:
 
         none_count: int = 0
         result_count: int = 0
-        display_counts: List[int] = list(np.linspace(1, self.num_batches, 10, dtype=np.int))
+        display_counts: List[int] = list(np.linspace(1, self.num_batches, 10, dtype=np.int32))
 
         start_time = time.time()
 

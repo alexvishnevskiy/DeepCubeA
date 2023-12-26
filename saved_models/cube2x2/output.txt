@@ -1,0 +1,1266 @@
+device: cpu, devices: [], on_gpu: False
+Updating cost-to-go with value iteration
+device: cpu, devices: [], on_gpu: False
+Updating cost-to-go with value iteration
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+{'f0': Permutation(23)(2, 19, 21, 8)(3, 17, 20, 10)(4, 6, 7, 5), 'f1': Permutation(0, 18, 23, 9)(1, 16, 22, 11)(12, 13, 15, 14), 'r0': Permutation(1, 5, 21, 14)(3, 7, 23, 12)(8, 10, 11, 9), 'r1': Permutation(23)(0, 4, 20, 15)(2, 6, 22, 13)(16, 17, 19, 18), 'd0': Permutation(6, 18, 14, 10)(7, 19, 15, 11)(20, 22, 23, 21), 'd1': Permutation(23)(0, 1, 3, 2)(4, 16, 12, 8)(5, 17, 13, 9), '-f0': Permutation(23)(2, 8, 21, 19)(3, 10, 20, 17)(4, 5, 7, 6), '-f1': Permutation(0, 9, 23, 18)(1, 11, 22, 16)(12, 14, 15, 13), '-r0': Permutation(1, 14, 21, 5)(3, 12, 23, 7)(8, 9, 11, 10), '-r1': Permutation(23)(0, 15, 20, 4)(2, 13, 22, 6)(16, 18, 19, 17), '-d0': Permutation(6, 10, 14, 18)(7, 11, 15, 19)(20, 21, 23, 22), '-d1': Permutation(23)(0, 2, 3, 1)(4, 8, 12, 16)(5, 9, 13, 17)}
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+{'f0': Permutation(23)(2, 19, 21, 8)(3, 17, 20, 10)(4, 6, 7, 5), 'f1': Permutation(0, 18, 23, 9)(1, 16, 22, 11)(12, 13, 15, 14), 'r0': Permutation(1, 5, 21, 14)(3, 7, 23, 12)(8, 10, 11, 9), 'r1': Permutation(23)(0, 4, 20, 15)(2, 6, 22, 13)(16, 17, 19, 18), 'd0': Permutation(6, 18, 14, 10)(7, 19, 15, 11)(20, 22, 23, 21), 'd1': Permutation(23)(0, 1, 3, 2)(4, 16, 12, 8)(5, 17, 13, 9), '-f0': Permutation(23)(2, 8, 21, 19)(3, 10, 20, 17)(4, 5, 7, 6), '-f1': Permutation(0, 9, 23, 18)(1, 11, 22, 16)(12, 14, 15, 13), '-r0': Permutation(1, 14, 21, 5)(3, 12, 23, 7)(8, 9, 11, 10), '-r1': Permutation(23)(0, 15, 20, 4)(2, 13, 22, 6)(16, 18, 19, 17), '-d0': Permutation(6, 10, 14, 18)(7, 11, 15, 19)(20, 21, 23, 22), '-d1': Permutation(23)(0, 2, 3, 1)(4, 8, 12, 16)(5, 9, 13, 17)}
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+device: cuda:0, devices: [0], on_gpu: True
+{'f0': Permutation(23)(2, 19, 21, 8)(3, 17, 20, 10)(4, 6, 7, 5), 'f1': Permutation(0, 18, 23, 9)(1, 16, 22, 11)(12, 13, 15, 14), 'r0': Permutation(1, 5, 21, 14)(3, 7, 23, 12)(8, 10, 11, 9), 'r1': Permutation(23)(0, 4, 20, 15)(2, 6, 22, 13)(16, 17, 19, 18), 'd0': Permutation(6, 18, 14, 10)(7, 19, 15, 11)(20, 22, 23, 21), 'd1': Permutation(23)(0, 1, 3, 2)(4, 16, 12, 8)(5, 17, 13, 9), '-f0': Permutation(23)(2, 8, 21, 19)(3, 10, 20, 17)(4, 5, 7, 6), '-f1': Permutation(0, 9, 23, 18)(1, 11, 22, 16)(12, 14, 15, 13), '-r0': Permutation(1, 14, 21, 5)(3, 12, 23, 7)(8, 9, 11, 10), '-r1': Permutation(23)(0, 15, 20, 4)(2, 13, 22, 6)(16, 18, 19, 17), '-d0': Permutation(6, 10, 14, 18)(7, 11, 15, 19)(20, 21, 23, 22), '-d1': Permutation(23)(0, 2, 3, 1)(4, 8, 12, 16)(5, 9, 13, 17)}
+Updating cost-to-go with value iteration
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+{'f0': Permutation(23)(2, 19, 21, 8)(3, 17, 20, 10)(4, 6, 7, 5), 'f1': Permutation(0, 18, 23, 9)(1, 16, 22, 11)(12, 13, 15, 14), 'r0': Permutation(1, 5, 21, 14)(3, 7, 23, 12)(8, 10, 11, 9), 'r1': Permutation(23)(0, 4, 20, 15)(2, 6, 22, 13)(16, 17, 19, 18), 'd0': Permutation(6, 18, 14, 10)(7, 19, 15, 11)(20, 22, 23, 21), 'd1': Permutation(23)(0, 1, 3, 2)(4, 16, 12, 8)(5, 17, 13, 9), '-f0': Permutation(23)(2, 8, 21, 19)(3, 10, 20, 17)(4, 5, 7, 6), '-f1': Permutation(0, 9, 23, 18)(1, 11, 22, 16)(12, 14, 15, 13), '-r0': Permutation(1, 14, 21, 5)(3, 12, 23, 7)(8, 9, 11, 10), '-r1': Permutation(23)(0, 15, 20, 4)(2, 13, 22, 6)(16, 18, 19, 17), '-d0': Permutation(6, 10, 14, 18)(7, 11, 15, 19)(20, 21, 23, 22), '-d1': Permutation(23)(0, 2, 3, 1)(4, 8, 12, 16)(5, 9, 13, 17)}
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+{'f0': Permutation(23)(2, 19, 21, 8)(3, 17, 20, 10)(4, 6, 7, 5), 'f1': Permutation(0, 18, 23, 9)(1, 16, 22, 11)(12, 13, 15, 14), 'r0': Permutation(1, 5, 21, 14)(3, 7, 23, 12)(8, 10, 11, 9), 'r1': Permutation(23)(0, 4, 20, 15)(2, 6, 22, 13)(16, 17, 19, 18), 'd0': Permutation(6, 18, 14, 10)(7, 19, 15, 11)(20, 22, 23, 21), 'd1': Permutation(23)(0, 1, 3, 2)(4, 16, 12, 8)(5, 17, 13, 9), '-f0': Permutation(23)(2, 8, 21, 19)(3, 10, 20, 17)(4, 5, 7, 6), '-f1': Permutation(0, 9, 23, 18)(1, 11, 22, 16)(12, 14, 15, 13), '-r0': Permutation(1, 14, 21, 5)(3, 12, 23, 7)(8, 9, 11, 10), '-r1': Permutation(23)(0, 15, 20, 4)(2, 13, 22, 6)(16, 18, 19, 17), '-d0': Permutation(6, 10, 14, 18)(7, 11, 15, 19)(20, 21, 23, 22), '-d1': Permutation(23)(0, 2, 3, 1)(4, 8, 12, 16)(5, 9, 13, 17)}
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+{'f0': Permutation(23)(2, 19, 21, 8)(3, 17, 20, 10)(4, 6, 7, 5), 'f1': Permutation(0, 18, 23, 9)(1, 16, 22, 11)(12, 13, 15, 14), 'r0': Permutation(1, 5, 21, 14)(3, 7, 23, 12)(8, 10, 11, 9), 'r1': Permutation(23)(0, 4, 20, 15)(2, 6, 22, 13)(16, 17, 19, 18), 'd0': Permutation(6, 18, 14, 10)(7, 19, 15, 11)(20, 22, 23, 21), 'd1': Permutation(23)(0, 1, 3, 2)(4, 16, 12, 8)(5, 17, 13, 9), '-f0': Permutation(23)(2, 8, 21, 19)(3, 10, 20, 17)(4, 5, 7, 6), '-f1': Permutation(0, 9, 23, 18)(1, 11, 22, 16)(12, 14, 15, 13), '-r0': Permutation(1, 14, 21, 5)(3, 12, 23, 7)(8, 9, 11, 10), '-r1': Permutation(23)(0, 15, 20, 4)(2, 13, 22, 6)(16, 18, 19, 17), '-d0': Permutation(6, 10, 14, 18)(7, 11, 15, 19)(20, 21, 23, 22), '-d1': Permutation(23)(0, 2, 3, 1)(4, 8, 12, 16)(5, 9, 13, 17)}
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+{'f0': Permutation(23)(2, 19, 21, 8)(3, 17, 20, 10)(4, 6, 7, 5), 'f1': Permutation(0, 18, 23, 9)(1, 16, 22, 11)(12, 13, 15, 14), 'r0': Permutation(1, 5, 21, 14)(3, 7, 23, 12)(8, 10, 11, 9), 'r1': Permutation(23)(0, 4, 20, 15)(2, 6, 22, 13)(16, 17, 19, 18), 'd0': Permutation(6, 18, 14, 10)(7, 19, 15, 11)(20, 22, 23, 21), 'd1': Permutation(23)(0, 1, 3, 2)(4, 16, 12, 8)(5, 17, 13, 9), '-f0': Permutation(23)(2, 8, 21, 19)(3, 10, 20, 17)(4, 5, 7, 6), '-f1': Permutation(0, 9, 23, 18)(1, 11, 22, 16)(12, 14, 15, 13), '-r0': Permutation(1, 14, 21, 5)(3, 12, 23, 7)(8, 9, 11, 10), '-r1': Permutation(23)(0, 15, 20, 4)(2, 13, 22, 6)(16, 18, 19, 17), '-d0': Permutation(6, 10, 14, 18)(7, 11, 15, 19)(20, 21, 23, 22), '-d1': Permutation(23)(0, 2, 3, 1)(4, 8, 12, 16)(5, 9, 13, 17)}
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+{'f0': Permutation(23)(2, 19, 21, 8)(3, 17, 20, 10)(4, 6, 7, 5), 'f1': Permutation(0, 18, 23, 9)(1, 16, 22, 11)(12, 13, 15, 14), 'r0': Permutation(1, 5, 21, 14)(3, 7, 23, 12)(8, 10, 11, 9), 'r1': Permutation(23)(0, 4, 20, 15)(2, 6, 22, 13)(16, 17, 19, 18), 'd0': Permutation(6, 18, 14, 10)(7, 19, 15, 11)(20, 22, 23, 21), 'd1': Permutation(23)(0, 1, 3, 2)(4, 16, 12, 8)(5, 17, 13, 9), '-f0': Permutation(23)(2, 8, 21, 19)(3, 10, 20, 17)(4, 5, 7, 6), '-f1': Permutation(0, 9, 23, 18)(1, 11, 22, 16)(12, 14, 15, 13), '-r0': Permutation(1, 14, 21, 5)(3, 12, 23, 7)(8, 9, 11, 10), '-r1': Permutation(23)(0, 15, 20, 4)(2, 13, 22, 6)(16, 18, 19, 17), '-d0': Permutation(6, 10, 14, 18)(7, 11, 15, 19)(20, 21, 23, 22), '-d1': Permutation(23)(0, 2, 3, 1)(4, 8, 12, 16)(5, 9, 13, 17)}
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+{'f0': Permutation(23)(2, 19, 21, 8)(3, 17, 20, 10)(4, 6, 7, 5), 'f1': Permutation(0, 18, 23, 9)(1, 16, 22, 11)(12, 13, 15, 14), 'r0': Permutation(1, 5, 21, 14)(3, 7, 23, 12)(8, 10, 11, 9), 'r1': Permutation(23)(0, 4, 20, 15)(2, 6, 22, 13)(16, 17, 19, 18), 'd0': Permutation(6, 18, 14, 10)(7, 19, 15, 11)(20, 22, 23, 21), 'd1': Permutation(23)(0, 1, 3, 2)(4, 16, 12, 8)(5, 17, 13, 9), '-f0': Permutation(23)(2, 8, 21, 19)(3, 10, 20, 17)(4, 5, 7, 6), '-f1': Permutation(0, 9, 23, 18)(1, 11, 22, 16)(12, 14, 15, 13), '-r0': Permutation(1, 14, 21, 5)(3, 12, 23, 7)(8, 9, 11, 10), '-r1': Permutation(23)(0, 15, 20, 4)(2, 13, 22, 6)(16, 18, 19, 17), '-d0': Permutation(6, 10, 14, 18)(7, 11, 15, 19)(20, 21, 23, 22), '-d1': Permutation(23)(0, 2, 3, 1)(4, 8, 12, 16)(5, 9, 13, 17)}
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+0.02% (Total time: 10.31)
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+0.02% (Total time: 20.04)
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+0.02% (Total time: 4.19)
+11.12% (Total time: 85.58)
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.62)
+12.50% (Total time: 3.85)
+23.44% (Total time: 4.05)
+34.38% (Total time: 5.85)
+45.31% (Total time: 5.99)
+56.25% (Total time: 8.00)
+67.19% (Total time: 8.09)
+78.12% (Total time: 8.21)
+89.06% (Total time: 8.36)
+100.00% (Total time: 8.53)
+Cost-to-go (mean/min/max): 0.95/0.00/1.00
+Training model for update number 0 for 50 iterations
+Itr: 0, lr: 1.00E-03, loss: 1.52E+00, targ_ctg: 0.95, nnet_ctg: 0.13, Time: 0.19
+Solving 10000 states with GBFS with 1 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.19(0.00/0.19/0.19)
+Back Steps: 1, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.03(0.07/0.88/1.12)
+Back Steps: 2, %Solved: 8.68, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.89(0.23/0.19/1.14)
+Back Steps: 3, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.96(0.09/0.67/1.18)
+Back Steps: 4, %Solved: 0.60, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.96(0.10/0.19/1.24)
+Back Steps: 5, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.98(0.08/0.53/1.20)
+Back Steps: 6, %Solved: 0.30, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.97(0.10/0.19/1.24)
+Back Steps: 7, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.99(0.08/0.75/1.24)
+Back Steps: 8, %Solved: 0.15, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.98(0.09/0.19/1.17)
+Back Steps: 9, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.99(0.08/0.72/1.20)
+Back Steps: 10, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.99(0.08/0.74/1.20)
+Back Steps: 11, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.99(0.09/0.63/1.24)
+Back Steps: 12, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.98(0.09/0.69/1.20)
+Back Steps: 13, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.99(0.09/0.65/1.21)
+Back Steps: 14, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.99(0.08/0.68/1.20)
+Back Steps: 15, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.98(0.08/0.67/1.22)
+Back Steps: 16, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.99(0.08/0.61/1.30)
+Back Steps: 17, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.98(0.08/0.70/1.19)
+Back Steps: 18, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.99(0.08/0.64/1.16)
+Back Steps: 19, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.98(0.08/0.68/1.19)
+Back Steps: 20, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.99(0.08/0.56/1.16)
+Test time: 1.22
+Last loss was 0.007208
+Updating target network
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.79)
+12.50% (Total time: 5.10)
+23.44% (Total time: 6.39)
+34.38% (Total time: 7.64)
+45.31% (Total time: 8.98)
+56.25% (Total time: 10.22)
+67.19% (Total time: 11.37)
+78.12% (Total time: 12.09)
+89.06% (Total time: 12.50)
+100.00% (Total time: 12.73)
+Cost-to-go (mean/min/max): 1.71/0.00/2.03
+Training model for update number 1 for 50 iterations
+Solving 10000 states with GBFS with 2 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): -0.53(0.00/-0.53/-0.53)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.08(0.06/0.96/1.16)
+Back Steps: 2, %Solved: 9.13, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.52(0.66/-0.53/1.93)
+Back Steps: 3, %Solved: 15.57, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.68(0.29/0.96/1.96)
+Back Steps: 4, %Solved: 1.50, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.76(0.31/-0.53/1.97)
+Back Steps: 5, %Solved: 2.10, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.80(0.16/0.96/1.98)
+Back Steps: 6, %Solved: 0.45, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.81(0.19/-0.53/1.99)
+Back Steps: 7, %Solved: 1.50, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.82(0.15/0.96/2.00)
+Back Steps: 8, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.83(0.10/1.01/1.98)
+Back Steps: 9, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.84(0.07/1.44/2.02)
+Back Steps: 10, %Solved: 0.30, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.83(0.16/-0.53/1.99)
+Back Steps: 11, %Solved: 0.15, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.83(0.08/1.15/1.98)
+Back Steps: 12, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.84(0.09/1.08/1.99)
+Back Steps: 13, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.84(0.08/1.05/1.99)
+Back Steps: 14, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.84(0.08/1.14/1.98)
+Back Steps: 15, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.85(0.07/1.28/2.02)
+Back Steps: 16, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.84(0.06/1.50/1.97)
+Back Steps: 17, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.84(0.07/1.12/2.01)
+Back Steps: 18, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.84(0.10/0.72/1.98)
+Back Steps: 19, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.84(0.08/1.07/1.98)
+Back Steps: 20, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.84(0.08/1.18/1.98)
+Test time: 1.98
+Last loss was 0.011622
+Updating target network
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.77)
+12.50% (Total time: 5.05)
+23.44% (Total time: 6.38)
+34.38% (Total time: 7.63)
+45.31% (Total time: 8.91)
+56.25% (Total time: 10.19)
+67.19% (Total time: 11.37)
+78.12% (Total time: 12.07)
+89.06% (Total time: 12.49)
+100.00% (Total time: 12.67)
+Cost-to-go (mean/min/max): 2.41/0.00/2.90
+Training model for update number 2 for 50 iterations
+Itr: 100, lr: 1.00E-03, loss: 5.74E-01, targ_ctg: 2.40, nnet_ctg: 1.73, Time: 0.07
+Solving 10000 states with GBFS with 3 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.03(0.00/0.03/0.03)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.01(0.03/0.96/1.06)
+Back Steps: 2, %Solved: 95.21, avgSolveSteps: 1.79, CTG Mean(Std/Min/Max): 1.95(0.66/0.03/2.47)
+Back Steps: 3, %Solved: 15.87, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 2.32(0.63/0.96/2.87)
+Back Steps: 4, %Solved: 26.20, avgSolveSteps: 1.92, CTG Mean(Std/Min/Max): 2.50(0.41/0.03/2.94)
+Back Steps: 5, %Solved: 4.79, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 2.59(0.43/0.99/2.95)
+Back Steps: 6, %Solved: 9.75, avgSolveSteps: 1.91, CTG Mean(Std/Min/Max): 2.63(0.34/0.03/2.95)
+Back Steps: 7, %Solved: 1.50, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 2.68(0.34/0.96/2.94)
+Back Steps: 8, %Solved: 3.45, avgSolveSteps: 2.00, CTG Mean(Std/Min/Max): 2.72(0.20/1.09/2.95)
+Back Steps: 9, %Solved: 0.60, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 2.72(0.27/1.01/2.95)
+Back Steps: 10, %Solved: 0.30, avgSolveSteps: 2.00, CTG Mean(Std/Min/Max): 2.76(0.16/1.78/2.95)
+Back Steps: 11, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 2.76(0.15/1.23/2.97)
+Back Steps: 12, %Solved: 0.90, avgSolveSteps: 2.00, CTG Mean(Std/Min/Max): 2.76(0.18/0.97/2.94)
+Back Steps: 13, %Solved: 0.30, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 2.76(0.19/1.01/2.96)
+Back Steps: 14, %Solved: 0.60, avgSolveSteps: 2.00, CTG Mean(Std/Min/Max): 2.77(0.14/2.07/2.96)
+Back Steps: 15, %Solved: 0.15, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 2.77(0.15/1.01/2.98)
+Back Steps: 16, %Solved: 0.60, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 2.77(0.20/0.03/2.97)
+Back Steps: 17, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 2.78(0.15/1.69/2.97)
+Back Steps: 18, %Solved: 0.30, avgSolveSteps: 2.00, CTG Mean(Std/Min/Max): 2.75(0.21/0.03/2.96)
+Back Steps: 19, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 2.78(0.15/1.59/2.96)
+Back Steps: 20, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 2.79(0.10/2.14/2.94)
+Test time: 2.54
+Last loss was 0.009173
+Updating target network
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.79)
+12.50% (Total time: 5.10)
+23.44% (Total time: 6.37)
+34.38% (Total time: 7.65)
+45.31% (Total time: 8.96)
+56.25% (Total time: 10.24)
+67.19% (Total time: 11.39)
+78.12% (Total time: 12.10)
+89.06% (Total time: 12.51)
+100.00% (Total time: 12.73)
+Cost-to-go (mean/min/max): 3.05/0.00/3.88
+Training model for update number 3 for 50 iterations
+Solving 10000 states with GBFS with 4 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): -0.35(0.00/-0.35/-0.35)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 0.90(0.11/0.75/1.13)
+Back Steps: 2, %Solved: 90.57, avgSolveSteps: 1.79, CTG Mean(Std/Min/Max): 1.80(0.71/-0.35/2.27)
+Back Steps: 3, %Solved: 84.43, avgSolveSteps: 2.54, CTG Mean(Std/Min/Max): 2.68(0.94/0.75/3.59)
+Back Steps: 4, %Solved: 27.84, avgSolveSteps: 1.88, CTG Mean(Std/Min/Max): 2.93(0.82/-0.35/3.81)
+Back Steps: 5, %Solved: 34.13, avgSolveSteps: 2.74, CTG Mean(Std/Min/Max): 3.21(0.63/0.79/3.87)
+Back Steps: 6, %Solved: 10.49, avgSolveSteps: 2.00, CTG Mean(Std/Min/Max): 3.24(0.59/1.15/3.92)
+Back Steps: 7, %Solved: 12.31, avgSolveSteps: 2.71, CTG Mean(Std/Min/Max): 3.43(0.49/0.84/3.93)
+Back Steps: 8, %Solved: 3.30, avgSolveSteps: 1.73, CTG Mean(Std/Min/Max): 3.46(0.48/-0.35/3.96)
+Back Steps: 9, %Solved: 5.71, avgSolveSteps: 2.79, CTG Mean(Std/Min/Max): 3.50(0.38/0.79/3.94)
+Back Steps: 10, %Solved: 1.50, avgSolveSteps: 2.00, CTG Mean(Std/Min/Max): 3.49(0.36/1.94/3.94)
+Back Steps: 11, %Solved: 3.15, avgSolveSteps: 2.81, CTG Mean(Std/Min/Max): 3.51(0.35/0.84/3.92)
+Back Steps: 12, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 3.53(0.31/1.86/3.89)
+Back Steps: 13, %Solved: 0.90, avgSolveSteps: 3.00, CTG Mean(Std/Min/Max): 3.56(0.27/1.56/3.92)
+Back Steps: 14, %Solved: 0.30, avgSolveSteps: 2.00, CTG Mean(Std/Min/Max): 3.55(0.30/1.89/3.93)
+Back Steps: 15, %Solved: 0.90, avgSolveSteps: 3.00, CTG Mean(Std/Min/Max): 3.58(0.26/0.94/3.95)
+Back Steps: 16, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 3.57(0.28/1.95/3.91)
+Back Steps: 17, %Solved: 0.45, avgSolveSteps: 3.00, CTG Mean(Std/Min/Max): 3.58(0.26/2.00/3.94)
+Back Steps: 18, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 3.58(0.25/2.09/3.93)
+Back Steps: 19, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 3.57(0.25/1.96/3.94)
+Back Steps: 20, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 3.59(0.24/2.06/3.93)
+Test time: 3.21
+Last loss was 0.014983
+Updating target network
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.80)
+12.50% (Total time: 5.11)
+23.44% (Total time: 6.38)
+34.38% (Total time: 7.70)
+45.31% (Total time: 8.94)
+56.25% (Total time: 10.19)
+67.19% (Total time: 11.38)
+78.12% (Total time: 12.06)
+89.06% (Total time: 12.49)
+100.00% (Total time: 12.68)
+Cost-to-go (mean/min/max): 3.50/0.00/4.79
+Training model for update number 4 for 50 iterations
+Itr: 200, lr: 1.00E-03, loss: 3.26E-01, targ_ctg: 3.50, nnet_ctg: 3.07, Time: 0.07
+Solving 10000 states with GBFS with 5 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): -0.50(0.00/-0.50/-0.50)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 0.82(0.04/0.74/0.92)
+Back Steps: 2, %Solved: 94.61, avgSolveSteps: 1.82, CTG Mean(Std/Min/Max): 1.65(0.67/-0.50/2.20)
+Back Steps: 3, %Solved: 80.84, avgSolveSteps: 2.48, CTG Mean(Std/Min/Max): 2.62(1.03/0.74/3.90)
+Back Steps: 4, %Solved: 60.48, avgSolveSteps: 3.09, CTG Mean(Std/Min/Max): 3.13(1.04/-0.50/4.51)
+Back Steps: 5, %Solved: 38.02, avgSolveSteps: 2.75, CTG Mean(Std/Min/Max): 3.44(0.86/0.74/4.66)
+Back Steps: 6, %Solved: 30.28, avgSolveSteps: 3.41, CTG Mean(Std/Min/Max): 3.70(0.84/-0.50/4.70)
+Back Steps: 7, %Solved: 13.81, avgSolveSteps: 2.83, CTG Mean(Std/Min/Max): 3.78(0.72/0.75/4.68)
+Back Steps: 8, %Solved: 15.62, avgSolveSteps: 3.48, CTG Mean(Std/Min/Max): 3.86(0.72/1.48/4.78)
+Back Steps: 9, %Solved: 5.11, avgSolveSteps: 3.00, CTG Mean(Std/Min/Max): 4.01(0.49/1.36/4.70)
+Back Steps: 10, %Solved: 6.61, avgSolveSteps: 3.82, CTG Mean(Std/Min/Max): 4.06(0.48/1.62/4.67)
+Back Steps: 11, %Solved: 3.45, avgSolveSteps: 3.00, CTG Mean(Std/Min/Max): 4.06(0.47/0.75/4.66)
+Back Steps: 12, %Solved: 4.20, avgSolveSteps: 3.71, CTG Mean(Std/Min/Max): 4.08(0.49/1.68/4.67)
+Back Steps: 13, %Solved: 1.05, avgSolveSteps: 3.00, CTG Mean(Std/Min/Max): 4.12(0.40/1.94/4.76)
+Back Steps: 14, %Solved: 3.00, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 4.11(0.47/1.52/4.71)
+Back Steps: 15, %Solved: 0.45, avgSolveSteps: 2.33, CTG Mean(Std/Min/Max): 4.09(0.45/0.84/4.71)
+Back Steps: 16, %Solved: 0.60, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 4.11(0.46/1.77/4.67)
+Back Steps: 17, %Solved: 0.75, avgSolveSteps: 2.60, CTG Mean(Std/Min/Max): 4.16(0.42/0.75/4.69)
+Back Steps: 18, %Solved: 0.90, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 4.15(0.39/1.85/4.72)
+Back Steps: 19, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 4.16(0.45/0.77/4.74)
+Back Steps: 20, %Solved: 1.50, avgSolveSteps: 3.60, CTG Mean(Std/Min/Max): 4.12(0.46/1.65/4.70)
+Test time: 3.79
+Last loss was 0.033636
+Updating target network
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.79)
+12.50% (Total time: 5.09)
+23.44% (Total time: 6.36)
+34.38% (Total time: 7.66)
+45.31% (Total time: 8.97)
+56.25% (Total time: 10.20)
+67.19% (Total time: 11.38)
+78.12% (Total time: 12.07)
+89.06% (Total time: 12.50)
+100.00% (Total time: 12.70)
+Cost-to-go (mean/min/max): 3.71/0.00/5.51
+Training model for update number 5 for 50 iterations
+Solving 10000 states with GBFS with 6 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): -0.95(0.00/-0.95/-0.95)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 0.61(0.12/0.46/1.07)
+Back Steps: 2, %Solved: 93.86, avgSolveSteps: 1.85, CTG Mean(Std/Min/Max): 1.62(0.72/-0.95/2.14)
+Back Steps: 3, %Solved: 85.63, avgSolveSteps: 2.53, CTG Mean(Std/Min/Max): 2.47(0.94/0.46/3.96)
+Back Steps: 4, %Solved: 72.46, avgSolveSteps: 3.09, CTG Mean(Std/Min/Max): 3.10(1.22/-0.95/4.94)
+Back Steps: 5, %Solved: 48.20, avgSolveSteps: 3.17, CTG Mean(Std/Min/Max): 3.51(1.08/0.46/5.11)
+Back Steps: 6, %Solved: 33.88, avgSolveSteps: 3.52, CTG Mean(Std/Min/Max): 3.94(0.93/-0.95/5.23)
+Back Steps: 7, %Solved: 26.43, avgSolveSteps: 3.52, CTG Mean(Std/Min/Max): 3.96(0.95/0.46/5.14)
+Back Steps: 8, %Solved: 17.42, avgSolveSteps: 3.55, CTG Mean(Std/Min/Max): 4.08(0.80/1.46/5.21)
+Back Steps: 9, %Solved: 10.81, avgSolveSteps: 3.83, CTG Mean(Std/Min/Max): 4.17(0.81/0.46/5.28)
+Back Steps: 10, %Solved: 8.71, avgSolveSteps: 3.79, CTG Mean(Std/Min/Max): 4.31(0.62/1.81/5.11)
+Back Steps: 11, %Solved: 6.01, avgSolveSteps: 4.10, CTG Mean(Std/Min/Max): 4.36(0.60/0.57/5.30)
+Back Steps: 12, %Solved: 6.01, avgSolveSteps: 3.70, CTG Mean(Std/Min/Max): 4.37(0.57/1.57/5.27)
+Back Steps: 13, %Solved: 3.60, avgSolveSteps: 3.83, CTG Mean(Std/Min/Max): 4.39(0.58/0.63/5.20)
+Back Steps: 14, %Solved: 1.80, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 4.38(0.53/1.78/5.21)
+Back Steps: 15, %Solved: 3.30, avgSolveSteps: 4.36, CTG Mean(Std/Min/Max): 4.44(0.54/0.46/5.31)
+Back Steps: 16, %Solved: 0.60, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 4.43(0.47/2.70/5.18)
+Back Steps: 17, %Solved: 1.20, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 4.46(0.49/1.75/5.28)
+Back Steps: 18, %Solved: 0.60, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 4.48(0.51/1.11/5.35)
+Back Steps: 19, %Solved: 0.30, avgSolveSteps: 3.00, CTG Mean(Std/Min/Max): 4.49(0.50/1.34/5.23)
+Back Steps: 20, %Solved: 1.50, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 4.46(0.48/1.96/5.21)
+Test time: 4.44
+Last loss was 0.039090
+Updating target network
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.75)
+12.50% (Total time: 5.01)
+23.44% (Total time: 6.33)
+34.38% (Total time: 7.63)
+45.31% (Total time: 8.91)
+56.25% (Total time: 10.17)
+67.19% (Total time: 11.34)
+78.12% (Total time: 12.04)
+89.06% (Total time: 12.46)
+100.00% (Total time: 12.62)
+Cost-to-go (mean/min/max): 3.81/0.00/5.97
+Training model for update number 6 for 50 iterations
+Itr: 300, lr: 1.00E-03, loss: 1.20E-01, targ_ctg: 3.80, nnet_ctg: 3.68, Time: 0.07
+Solving 10000 states with GBFS with 7 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.09(0.00/0.09/0.09)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.07(0.05/1.01/1.17)
+Back Steps: 2, %Solved: 95.66, avgSolveSteps: 1.83, CTG Mean(Std/Min/Max): 1.65(0.49/0.09/2.27)
+Back Steps: 3, %Solved: 86.23, avgSolveSteps: 2.49, CTG Mean(Std/Min/Max): 2.62(0.89/1.01/3.97)
+Back Steps: 4, %Solved: 67.51, avgSolveSteps: 3.21, CTG Mean(Std/Min/Max): 3.34(1.23/0.09/5.26)
+Back Steps: 5, %Solved: 47.01, avgSolveSteps: 3.38, CTG Mean(Std/Min/Max): 3.79(1.05/1.01/5.57)
+Back Steps: 6, %Solved: 37.48, avgSolveSteps: 3.54, CTG Mean(Std/Min/Max): 4.03(1.08/0.09/5.54)
+Back Steps: 7, %Solved: 23.72, avgSolveSteps: 3.71, CTG Mean(Std/Min/Max): 4.38(0.89/1.01/5.59)
+Back Steps: 8, %Solved: 21.62, avgSolveSteps: 3.74, CTG Mean(Std/Min/Max): 4.28(0.94/0.09/5.73)
+Back Steps: 9, %Solved: 10.81, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 4.53(0.79/1.06/5.76)
+Back Steps: 10, %Solved: 11.41, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 4.59(0.74/1.64/5.76)
+Back Steps: 11, %Solved: 6.46, avgSolveSteps: 4.07, CTG Mean(Std/Min/Max): 4.62(0.70/1.02/5.64)
+Back Steps: 12, %Solved: 5.71, avgSolveSteps: 4.21, CTG Mean(Std/Min/Max): 4.65(0.63/1.64/5.77)
+Back Steps: 13, %Solved: 3.30, avgSolveSteps: 4.64, CTG Mean(Std/Min/Max): 4.73(0.61/1.17/5.73)
+Back Steps: 14, %Solved: 5.11, avgSolveSteps: 4.47, CTG Mean(Std/Min/Max): 4.78(0.60/0.09/5.63)
+Back Steps: 15, %Solved: 1.50, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 4.75(0.58/1.71/5.76)
+Back Steps: 16, %Solved: 2.70, avgSolveSteps: 4.67, CTG Mean(Std/Min/Max): 4.85(0.46/2.44/5.69)
+Back Steps: 17, %Solved: 1.50, avgSolveSteps: 4.60, CTG Mean(Std/Min/Max): 4.79(0.55/2.14/5.68)
+Back Steps: 18, %Solved: 0.30, avgSolveSteps: 6.00, CTG Mean(Std/Min/Max): 4.79(0.50/3.16/5.73)
+Back Steps: 19, %Solved: 0.90, avgSolveSteps: 3.67, CTG Mean(Std/Min/Max): 4.79(0.55/2.23/5.67)
+Back Steps: 20, %Solved: 0.90, avgSolveSteps: 4.67, CTG Mean(Std/Min/Max): 4.82(0.51/3.12/5.64)
+Test time: 4.95
+Last loss was 0.068669
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.84)
+12.50% (Total time: 5.15)
+23.44% (Total time: 6.46)
+34.38% (Total time: 7.74)
+45.31% (Total time: 9.04)
+56.25% (Total time: 10.32)
+67.19% (Total time: 11.47)
+78.12% (Total time: 12.14)
+89.06% (Total time: 12.59)
+100.00% (Total time: 12.80)
+Cost-to-go (mean/min/max): 3.82/0.00/5.92
+Training model for update number 6 for 50 iterations
+Solving 10000 states with GBFS with 7 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): -0.17(0.00/-0.17/-0.17)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.01(0.05/0.94/1.16)
+Back Steps: 2, %Solved: 93.41, avgSolveSteps: 1.84, CTG Mean(Std/Min/Max): 1.59(0.52/-0.17/2.37)
+Back Steps: 3, %Solved: 83.53, avgSolveSteps: 2.60, CTG Mean(Std/Min/Max): 2.65(0.80/0.94/3.91)
+Back Steps: 4, %Solved: 69.01, avgSolveSteps: 3.16, CTG Mean(Std/Min/Max): 3.26(1.16/-0.17/5.04)
+Back Steps: 5, %Solved: 48.20, avgSolveSteps: 3.37, CTG Mean(Std/Min/Max): 3.71(1.01/0.94/5.49)
+Back Steps: 6, %Solved: 37.18, avgSolveSteps: 3.52, CTG Mean(Std/Min/Max): 3.92(1.12/-0.17/5.85)
+Back Steps: 7, %Solved: 25.53, avgSolveSteps: 3.73, CTG Mean(Std/Min/Max): 4.21(0.94/0.94/5.66)
+Back Steps: 8, %Solved: 21.02, avgSolveSteps: 3.74, CTG Mean(Std/Min/Max): 4.34(0.87/-0.17/5.62)
+Back Steps: 9, %Solved: 10.81, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 4.51(0.76/0.94/5.71)
+Back Steps: 10, %Solved: 9.31, avgSolveSteps: 4.06, CTG Mean(Std/Min/Max): 4.55(0.73/1.57/5.79)
+Back Steps: 11, %Solved: 7.81, avgSolveSteps: 4.04, CTG Mean(Std/Min/Max): 4.59(0.65/2.12/5.69)
+Back Steps: 12, %Solved: 8.11, avgSolveSteps: 4.37, CTG Mean(Std/Min/Max): 4.64(0.70/1.60/5.92)
+Back Steps: 13, %Solved: 4.20, avgSolveSteps: 4.57, CTG Mean(Std/Min/Max): 4.67(0.60/2.30/5.75)
+Back Steps: 14, %Solved: 5.71, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 4.74(0.52/1.92/5.75)
+Back Steps: 15, %Solved: 3.15, avgSolveSteps: 4.14, CTG Mean(Std/Min/Max): 4.71(0.60/0.96/5.69)
+Back Steps: 16, %Solved: 1.50, avgSolveSteps: 4.40, CTG Mean(Std/Min/Max): 4.79(0.48/1.71/5.63)
+Back Steps: 17, %Solved: 1.80, avgSolveSteps: 4.33, CTG Mean(Std/Min/Max): 4.76(0.55/1.00/5.76)
+Back Steps: 18, %Solved: 1.50, avgSolveSteps: 3.60, CTG Mean(Std/Min/Max): 4.77(0.55/1.77/5.71)
+Back Steps: 19, %Solved: 0.90, avgSolveSteps: 5.00, CTG Mean(Std/Min/Max): 4.77(0.53/2.51/5.66)
+Back Steps: 20, %Solved: 0.90, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 4.74(0.51/2.20/5.75)
+Test time: 5.00
+Last loss was 0.069069
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.79)
+12.50% (Total time: 5.04)
+23.44% (Total time: 6.32)
+34.38% (Total time: 7.67)
+45.31% (Total time: 8.94)
+56.25% (Total time: 10.19)
+67.19% (Total time: 11.36)
+78.12% (Total time: 12.17)
+89.06% (Total time: 12.49)
+100.00% (Total time: 12.69)
+Cost-to-go (mean/min/max): 3.81/0.00/6.02
+Training model for update number 6 for 50 iterations
+Itr: 400, lr: 1.00E-03, loss: 6.19E-02, targ_ctg: 3.79, nnet_ctg: 3.81, Time: 0.07
+Solving 10000 states with GBFS with 7 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.21(0.00/0.21/0.21)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.14(0.03/1.10/1.20)
+Back Steps: 2, %Solved: 93.56, avgSolveSteps: 1.85, CTG Mean(Std/Min/Max): 1.58(0.41/0.21/2.20)
+Back Steps: 3, %Solved: 80.54, avgSolveSteps: 2.49, CTG Mean(Std/Min/Max): 2.48(0.75/1.10/3.88)
+Back Steps: 4, %Solved: 70.66, avgSolveSteps: 3.10, CTG Mean(Std/Min/Max): 3.11(1.25/0.21/5.22)
+Back Steps: 5, %Solved: 49.70, avgSolveSteps: 3.43, CTG Mean(Std/Min/Max): 3.54(1.05/1.10/5.35)
+Back Steps: 6, %Solved: 35.53, avgSolveSteps: 3.44, CTG Mean(Std/Min/Max): 3.87(1.10/0.21/5.62)
+Back Steps: 7, %Solved: 26.43, avgSolveSteps: 3.70, CTG Mean(Std/Min/Max): 4.16(0.98/1.11/5.60)
+Back Steps: 8, %Solved: 21.02, avgSolveSteps: 4.01, CTG Mean(Std/Min/Max): 4.28(0.90/0.21/5.72)
+Back Steps: 9, %Solved: 14.41, avgSolveSteps: 3.79, CTG Mean(Std/Min/Max): 4.34(0.86/1.15/5.72)
+Back Steps: 10, %Solved: 7.51, avgSolveSteps: 3.68, CTG Mean(Std/Min/Max): 4.55(0.69/1.54/5.58)
+Back Steps: 11, %Solved: 8.26, avgSolveSteps: 3.95, CTG Mean(Std/Min/Max): 4.48(0.75/1.10/5.73)
+Back Steps: 12, %Solved: 4.20, avgSolveSteps: 3.71, CTG Mean(Std/Min/Max): 4.59(0.69/1.53/5.60)
+Back Steps: 13, %Solved: 4.35, avgSolveSteps: 4.31, CTG Mean(Std/Min/Max): 4.58(0.67/1.16/5.68)
+Back Steps: 14, %Solved: 1.80, avgSolveSteps: 4.67, CTG Mean(Std/Min/Max): 4.68(0.49/2.51/5.57)
+Back Steps: 15, %Solved: 3.15, avgSolveSteps: 4.24, CTG Mean(Std/Min/Max): 4.63(0.58/2.50/5.77)
+Back Steps: 16, %Solved: 2.40, avgSolveSteps: 4.75, CTG Mean(Std/Min/Max): 4.62(0.55/1.60/5.52)
+Back Steps: 17, %Solved: 0.75, avgSolveSteps: 4.20, CTG Mean(Std/Min/Max): 4.71(0.54/1.85/5.63)
+Back Steps: 18, %Solved: 1.20, avgSolveSteps: 5.00, CTG Mean(Std/Min/Max): 4.71(0.53/2.99/5.64)
+Back Steps: 19, %Solved: 0.90, avgSolveSteps: 3.67, CTG Mean(Std/Min/Max): 4.69(0.54/2.43/5.65)
+Back Steps: 20, %Solved: 0.60, avgSolveSteps: 6.00, CTG Mean(Std/Min/Max): 4.74(0.51/2.71/5.67)
+Test time: 5.01
+Last loss was 0.056677
+Updating target network
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.86)
+12.50% (Total time: 5.13)
+23.44% (Total time: 6.47)
+34.38% (Total time: 7.73)
+45.31% (Total time: 9.08)
+56.25% (Total time: 10.32)
+67.19% (Total time: 11.49)
+78.12% (Total time: 12.19)
+89.06% (Total time: 12.62)
+100.00% (Total time: 12.84)
+Cost-to-go (mean/min/max): 3.95/0.00/6.35
+Training model for update number 7 for 50 iterations
+Solving 10000 states with GBFS with 8 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.14(0.00/0.14/0.14)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.29(0.03/1.25/1.35)
+Back Steps: 2, %Solved: 93.26, avgSolveSteps: 1.87, CTG Mean(Std/Min/Max): 2.02(0.48/0.14/2.29)
+Back Steps: 3, %Solved: 80.54, avgSolveSteps: 2.61, CTG Mean(Std/Min/Max): 2.49(0.57/1.25/3.30)
+Back Steps: 4, %Solved: 70.81, avgSolveSteps: 3.14, CTG Mean(Std/Min/Max): 3.30(1.02/0.14/5.21)
+Back Steps: 5, %Solved: 49.70, avgSolveSteps: 3.47, CTG Mean(Std/Min/Max): 3.55(1.12/1.26/5.57)
+Back Steps: 6, %Solved: 43.48, avgSolveSteps: 3.64, CTG Mean(Std/Min/Max): 3.91(0.99/0.14/5.82)
+Back Steps: 7, %Solved: 32.43, avgSolveSteps: 3.52, CTG Mean(Std/Min/Max): 4.04(1.11/1.25/5.74)
+Back Steps: 8, %Solved: 22.97, avgSolveSteps: 3.79, CTG Mean(Std/Min/Max): 4.38(0.88/0.14/5.79)
+Back Steps: 9, %Solved: 16.52, avgSolveSteps: 4.05, CTG Mean(Std/Min/Max): 4.41(0.96/1.26/5.88)
+Back Steps: 10, %Solved: 12.31, avgSolveSteps: 4.15, CTG Mean(Std/Min/Max): 4.62(0.71/2.08/5.65)
+Back Steps: 11, %Solved: 8.11, avgSolveSteps: 4.30, CTG Mean(Std/Min/Max): 4.58(0.81/1.27/5.84)
+Back Steps: 12, %Solved: 5.11, avgSolveSteps: 4.35, CTG Mean(Std/Min/Max): 4.74(0.61/2.11/5.77)
+Back Steps: 13, %Solved: 5.86, avgSolveSteps: 4.44, CTG Mean(Std/Min/Max): 4.69(0.75/1.29/5.94)
+Back Steps: 14, %Solved: 4.50, avgSolveSteps: 4.80, CTG Mean(Std/Min/Max): 4.74(0.68/0.14/5.76)
+Back Steps: 15, %Solved: 1.80, avgSolveSteps: 4.33, CTG Mean(Std/Min/Max): 4.78(0.68/1.29/5.96)
+Back Steps: 16, %Solved: 1.50, avgSolveSteps: 4.80, CTG Mean(Std/Min/Max): 4.81(0.63/0.14/5.79)
+Back Steps: 17, %Solved: 2.10, avgSolveSteps: 4.71, CTG Mean(Std/Min/Max): 4.84(0.59/2.56/5.94)
+Back Steps: 18, %Solved: 1.80, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 4.85(0.57/2.16/5.93)
+Back Steps: 19, %Solved: 0.30, avgSolveSteps: 5.00, CTG Mean(Std/Min/Max): 4.80(0.62/2.12/5.92)
+Back Steps: 20, %Solved: 1.20, avgSolveSteps: 5.00, CTG Mean(Std/Min/Max): 4.90(0.54/2.41/5.80)
+Test time: 5.65
+Last loss was 0.079098
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.83)
+12.50% (Total time: 5.12)
+23.44% (Total time: 6.42)
+34.38% (Total time: 7.71)
+45.31% (Total time: 9.06)
+56.25% (Total time: 10.28)
+67.19% (Total time: 11.47)
+78.12% (Total time: 12.16)
+89.06% (Total time: 12.58)
+100.00% (Total time: 12.75)
+Cost-to-go (mean/min/max): 3.96/0.00/6.35
+Training model for update number 7 for 50 iterations
+Itr: 500, lr: 1.00E-03, loss: 7.46E-02, targ_ctg: 3.92, nnet_ctg: 3.95, Time: 0.07
+Solving 10000 states with GBFS with 8 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.44(0.00/0.44/0.44)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.38(0.02/1.34/1.42)
+Back Steps: 2, %Solved: 95.06, avgSolveSteps: 1.80, CTG Mean(Std/Min/Max): 2.07(0.53/0.44/2.43)
+Back Steps: 3, %Solved: 87.72, avgSolveSteps: 2.61, CTG Mean(Std/Min/Max): 2.60(0.59/1.34/3.68)
+Back Steps: 4, %Solved: 69.61, avgSolveSteps: 3.14, CTG Mean(Std/Min/Max): 3.39(1.01/0.44/5.41)
+Back Steps: 5, %Solved: 50.60, avgSolveSteps: 3.54, CTG Mean(Std/Min/Max): 3.78(1.13/1.34/5.70)
+Back Steps: 6, %Solved: 37.48, avgSolveSteps: 3.82, CTG Mean(Std/Min/Max): 4.22(0.98/0.44/5.95)
+Back Steps: 7, %Solved: 27.93, avgSolveSteps: 3.77, CTG Mean(Std/Min/Max): 4.26(1.07/1.36/5.98)
+Back Steps: 8, %Solved: 19.67, avgSolveSteps: 3.83, CTG Mean(Std/Min/Max): 4.50(0.91/0.44/6.13)
+Back Steps: 9, %Solved: 12.31, avgSolveSteps: 4.12, CTG Mean(Std/Min/Max): 4.65(0.85/2.45/5.84)
+Back Steps: 10, %Solved: 9.91, avgSolveSteps: 3.88, CTG Mean(Std/Min/Max): 4.72(0.82/0.44/5.94)
+Back Steps: 11, %Solved: 9.76, avgSolveSteps: 4.45, CTG Mean(Std/Min/Max): 4.80(0.76/1.35/5.95)
+Back Steps: 12, %Solved: 5.71, avgSolveSteps: 4.42, CTG Mean(Std/Min/Max): 4.87(0.67/2.22/5.94)
+Back Steps: 13, %Solved: 4.20, avgSolveSteps: 4.57, CTG Mean(Std/Min/Max): 4.92(0.67/2.61/6.17)
+Back Steps: 14, %Solved: 2.70, avgSolveSteps: 4.89, CTG Mean(Std/Min/Max): 4.96(0.61/2.25/5.95)
+Back Steps: 15, %Solved: 3.15, avgSolveSteps: 4.52, CTG Mean(Std/Min/Max): 4.92(0.64/2.62/6.09)
+Back Steps: 16, %Solved: 2.40, avgSolveSteps: 4.50, CTG Mean(Std/Min/Max): 4.97(0.61/2.28/6.05)
+Back Steps: 17, %Solved: 1.95, avgSolveSteps: 4.85, CTG Mean(Std/Min/Max): 5.00(0.58/2.25/6.02)
+Back Steps: 18, %Solved: 0.90, avgSolveSteps: 4.67, CTG Mean(Std/Min/Max): 5.05(0.55/2.28/5.99)
+Back Steps: 19, %Solved: 1.50, avgSolveSteps: 5.40, CTG Mean(Std/Min/Max): 5.06(0.52/3.14/6.05)
+Back Steps: 20, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 5.00(0.57/2.59/5.93)
+Test time: 5.61
+Last loss was 0.078127
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.79)
+12.50% (Total time: 5.12)
+23.44% (Total time: 6.37)
+34.38% (Total time: 7.67)
+45.31% (Total time: 8.98)
+56.25% (Total time: 10.22)
+67.19% (Total time: 11.28)
+78.12% (Total time: 12.09)
+89.06% (Total time: 12.48)
+100.00% (Total time: 12.65)
+Cost-to-go (mean/min/max): 3.95/0.00/6.35
+Training model for update number 7 for 50 iterations
+Solving 10000 states with GBFS with 8 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.19(0.00/0.19/0.19)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.32(0.03/1.28/1.38)
+Back Steps: 2, %Solved: 92.51, avgSolveSteps: 1.84, CTG Mean(Std/Min/Max): 1.99(0.51/0.19/2.46)
+Back Steps: 3, %Solved: 87.13, avgSolveSteps: 2.55, CTG Mean(Std/Min/Max): 2.39(0.55/1.28/3.38)
+Back Steps: 4, %Solved: 74.25, avgSolveSteps: 3.21, CTG Mean(Std/Min/Max): 3.31(0.99/0.19/5.24)
+Back Steps: 5, %Solved: 51.20, avgSolveSteps: 3.56, CTG Mean(Std/Min/Max): 3.62(1.10/1.30/5.61)
+Back Steps: 6, %Solved: 36.13, avgSolveSteps: 3.69, CTG Mean(Std/Min/Max): 3.97(0.99/0.19/5.70)
+Back Steps: 7, %Solved: 33.93, avgSolveSteps: 3.92, CTG Mean(Std/Min/Max): 4.05(1.08/1.28/5.68)
+Back Steps: 8, %Solved: 19.82, avgSolveSteps: 4.02, CTG Mean(Std/Min/Max): 4.36(0.87/0.19/5.82)
+Back Steps: 9, %Solved: 13.81, avgSolveSteps: 4.30, CTG Mean(Std/Min/Max): 4.44(0.85/2.39/5.94)
+Back Steps: 10, %Solved: 12.61, avgSolveSteps: 4.29, CTG Mean(Std/Min/Max): 4.53(0.80/2.02/6.06)
+Back Steps: 11, %Solved: 12.46, avgSolveSteps: 4.37, CTG Mean(Std/Min/Max): 4.54(0.79/1.30/5.77)
+Back Steps: 12, %Solved: 5.41, avgSolveSteps: 4.44, CTG Mean(Std/Min/Max): 4.75(0.67/2.08/5.87)
+Back Steps: 13, %Solved: 6.61, avgSolveSteps: 4.68, CTG Mean(Std/Min/Max): 4.70(0.70/1.33/5.85)
+Back Steps: 14, %Solved: 3.90, avgSolveSteps: 4.77, CTG Mean(Std/Min/Max): 4.70(0.71/1.99/5.85)
+Back Steps: 15, %Solved: 3.90, avgSolveSteps: 4.85, CTG Mean(Std/Min/Max): 4.77(0.62/2.13/5.82)
+Back Steps: 16, %Solved: 3.60, avgSolveSteps: 5.33, CTG Mean(Std/Min/Max): 4.83(0.58/2.10/6.02)
+Back Steps: 17, %Solved: 2.55, avgSolveSteps: 4.18, CTG Mean(Std/Min/Max): 4.76(0.64/2.35/6.10)
+Back Steps: 18, %Solved: 2.10, avgSolveSteps: 4.57, CTG Mean(Std/Min/Max): 4.86(0.60/2.14/5.83)
+Back Steps: 19, %Solved: 0.90, avgSolveSteps: 3.00, CTG Mean(Std/Min/Max): 4.87(0.54/2.52/5.98)
+Back Steps: 20, %Solved: 1.50, avgSolveSteps: 4.40, CTG Mean(Std/Min/Max): 4.87(0.55/2.08/5.92)
+Test time: 5.60
+Last loss was 0.071932
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.94)
+12.50% (Total time: 5.27)
+23.44% (Total time: 6.55)
+34.38% (Total time: 7.83)
+45.31% (Total time: 9.12)
+56.25% (Total time: 10.44)
+67.19% (Total time: 11.68)
+78.12% (Total time: 12.32)
+89.06% (Total time: 12.75)
+100.00% (Total time: 12.99)
+Cost-to-go (mean/min/max): 3.96/0.00/6.33
+Training model for update number 7 for 50 iterations
+Itr: 600, lr: 1.00E-03, loss: 7.16E-02, targ_ctg: 3.95, nnet_ctg: 3.91, Time: 0.07
+Solving 10000 states with GBFS with 8 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): -0.03(0.00/-0.03/-0.03)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.18(0.04/1.14/1.25)
+Back Steps: 2, %Solved: 92.96, avgSolveSteps: 1.82, CTG Mean(Std/Min/Max): 1.95(0.61/-0.03/2.23)
+Back Steps: 3, %Solved: 85.33, avgSolveSteps: 2.49, CTG Mean(Std/Min/Max): 2.36(0.66/1.14/3.32)
+Back Steps: 4, %Solved: 71.41, avgSolveSteps: 3.13, CTG Mean(Std/Min/Max): 3.32(1.04/-0.03/5.20)
+Back Steps: 5, %Solved: 52.40, avgSolveSteps: 3.53, CTG Mean(Std/Min/Max): 3.57(1.18/1.14/5.68)
+Back Steps: 6, %Solved: 39.28, avgSolveSteps: 3.63, CTG Mean(Std/Min/Max): 4.04(0.99/-0.03/5.75)
+Back Steps: 7, %Solved: 25.53, avgSolveSteps: 3.99, CTG Mean(Std/Min/Max): 4.23(1.08/1.14/6.08)
+Back Steps: 8, %Solved: 23.27, avgSolveSteps: 4.05, CTG Mean(Std/Min/Max): 4.39(0.91/-0.03/5.99)
+Back Steps: 9, %Solved: 17.72, avgSolveSteps: 4.53, CTG Mean(Std/Min/Max): 4.60(0.83/1.17/5.90)
+Back Steps: 10, %Solved: 11.71, avgSolveSteps: 4.26, CTG Mean(Std/Min/Max): 4.68(0.84/2.00/5.95)
+Back Steps: 11, %Solved: 11.26, avgSolveSteps: 4.25, CTG Mean(Std/Min/Max): 4.73(0.83/1.14/5.97)
+Back Steps: 12, %Solved: 6.61, avgSolveSteps: 4.55, CTG Mean(Std/Min/Max): 4.83(0.64/2.08/6.01)
+Back Steps: 13, %Solved: 6.46, avgSolveSteps: 4.49, CTG Mean(Std/Min/Max): 4.78(0.73/2.39/6.00)
+Back Steps: 14, %Solved: 3.30, avgSolveSteps: 4.55, CTG Mean(Std/Min/Max): 4.85(0.71/2.09/5.96)
+Back Steps: 15, %Solved: 2.55, avgSolveSteps: 4.53, CTG Mean(Std/Min/Max): 4.88(0.66/2.32/6.01)
+Back Steps: 16, %Solved: 0.90, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 4.92(0.62/2.23/5.97)
+Back Steps: 17, %Solved: 0.90, avgSolveSteps: 5.00, CTG Mean(Std/Min/Max): 4.94(0.60/1.81/6.01)
+Back Steps: 18, %Solved: 1.50, avgSolveSteps: 3.60, CTG Mean(Std/Min/Max): 4.89(0.66/2.10/5.98)
+Back Steps: 19, %Solved: 1.50, avgSolveSteps: 5.00, CTG Mean(Std/Min/Max): 4.92(0.63/2.63/5.94)
+Back Steps: 20, %Solved: 0.90, avgSolveSteps: 4.67, CTG Mean(Std/Min/Max): 4.92(0.55/2.39/5.91)
+Test time: 5.59
+Last loss was 0.069559
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.84)
+12.50% (Total time: 5.13)
+23.44% (Total time: 6.40)
+34.38% (Total time: 7.71)
+45.31% (Total time: 9.00)
+56.25% (Total time: 10.26)
+67.19% (Total time: 11.34)
+78.12% (Total time: 12.12)
+89.06% (Total time: 12.56)
+100.00% (Total time: 12.76)
+Cost-to-go (mean/min/max): 3.95/0.00/6.34
+Training model for update number 7 for 50 iterations
+Solving 10000 states with GBFS with 8 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.01(0.00/0.01/0.01)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.21(0.03/1.18/1.28)
+Back Steps: 2, %Solved: 94.01, avgSolveSteps: 1.83, CTG Mean(Std/Min/Max): 2.01(0.61/0.01/2.33)
+Back Steps: 3, %Solved: 90.42, avgSolveSteps: 2.56, CTG Mean(Std/Min/Max): 2.44(0.64/1.18/3.51)
+Back Steps: 4, %Solved: 69.46, avgSolveSteps: 3.30, CTG Mean(Std/Min/Max): 3.45(1.00/0.01/5.51)
+Back Steps: 5, %Solved: 59.58, avgSolveSteps: 3.54, CTG Mean(Std/Min/Max): 3.58(1.15/1.18/5.72)
+Back Steps: 6, %Solved: 40.03, avgSolveSteps: 3.63, CTG Mean(Std/Min/Max): 4.08(1.01/0.01/6.03)
+Back Steps: 7, %Solved: 33.63, avgSolveSteps: 3.79, CTG Mean(Std/Min/Max): 4.24(1.16/1.18/5.99)
+Back Steps: 8, %Solved: 21.17, avgSolveSteps: 4.11, CTG Mean(Std/Min/Max): 4.50(0.92/0.01/6.07)
+Back Steps: 9, %Solved: 16.82, avgSolveSteps: 4.29, CTG Mean(Std/Min/Max): 4.68(0.90/1.18/5.93)
+Back Steps: 10, %Solved: 16.22, avgSolveSteps: 4.19, CTG Mean(Std/Min/Max): 4.74(0.77/2.12/5.95)
+Back Steps: 11, %Solved: 10.21, avgSolveSteps: 4.56, CTG Mean(Std/Min/Max): 4.78(0.78/1.22/6.03)
+Back Steps: 12, %Solved: 6.01, avgSolveSteps: 4.30, CTG Mean(Std/Min/Max): 4.86(0.68/2.13/5.97)
+Back Steps: 13, %Solved: 6.91, avgSolveSteps: 4.78, CTG Mean(Std/Min/Max): 4.87(0.71/1.18/5.96)
+Back Steps: 14, %Solved: 4.20, avgSolveSteps: 4.57, CTG Mean(Std/Min/Max): 4.90(0.62/2.22/5.93)
+Back Steps: 15, %Solved: 4.05, avgSolveSteps: 4.48, CTG Mean(Std/Min/Max): 4.91(0.63/2.43/6.05)
+Back Steps: 16, %Solved: 3.30, avgSolveSteps: 4.73, CTG Mean(Std/Min/Max): 4.89(0.66/2.18/5.97)
+Back Steps: 17, %Solved: 2.70, avgSolveSteps: 4.44, CTG Mean(Std/Min/Max): 5.03(0.55/1.20/6.09)
+Back Steps: 18, %Solved: 1.80, avgSolveSteps: 4.33, CTG Mean(Std/Min/Max): 5.01(0.57/2.74/6.01)
+Back Steps: 19, %Solved: 1.50, avgSolveSteps: 5.00, CTG Mean(Std/Min/Max): 5.03(0.56/2.44/6.09)
+Back Steps: 20, %Solved: 1.50, avgSolveSteps: 4.80, CTG Mean(Std/Min/Max): 5.00(0.52/2.15/6.08)
+Test time: 5.59
+Last loss was 0.055498
+Updating target network
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.82)
+12.50% (Total time: 5.11)
+23.44% (Total time: 6.41)
+34.38% (Total time: 7.69)
+45.31% (Total time: 9.00)
+56.25% (Total time: 10.27)
+67.19% (Total time: 11.44)
+78.12% (Total time: 12.14)
+89.06% (Total time: 12.56)
+100.00% (Total time: 12.75)
+Cost-to-go (mean/min/max): 4.15/0.00/6.73
+Training model for update number 8 for 50 iterations
+Itr: 700, lr: 1.00E-03, loss: 1.67E-01, targ_ctg: 4.14, nnet_ctg: 3.92, Time: 0.07
+Solving 10000 states with GBFS with 9 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.30(0.00/0.30/0.30)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.11(0.06/1.04/1.27)
+Back Steps: 2, %Solved: 95.81, avgSolveSteps: 1.83, CTG Mean(Std/Min/Max): 2.20(0.59/0.30/2.57)
+Back Steps: 3, %Solved: 81.44, avgSolveSteps: 2.57, CTG Mean(Std/Min/Max): 2.95(0.87/1.04/3.72)
+Back Steps: 4, %Solved: 74.25, avgSolveSteps: 3.17, CTG Mean(Std/Min/Max): 3.50(1.05/0.30/5.66)
+Back Steps: 5, %Solved: 62.57, avgSolveSteps: 3.61, CTG Mean(Std/Min/Max): 3.99(1.14/1.04/6.06)
+Back Steps: 6, %Solved: 40.48, avgSolveSteps: 3.79, CTG Mean(Std/Min/Max): 4.31(1.00/0.30/6.13)
+Back Steps: 7, %Solved: 33.63, avgSolveSteps: 3.86, CTG Mean(Std/Min/Max): 4.61(1.14/1.04/6.29)
+Back Steps: 8, %Solved: 21.92, avgSolveSteps: 3.71, CTG Mean(Std/Min/Max): 4.66(1.05/2.18/6.42)
+Back Steps: 9, %Solved: 16.82, avgSolveSteps: 4.43, CTG Mean(Std/Min/Max): 5.00(0.84/1.08/6.29)
+Back Steps: 10, %Solved: 11.41, avgSolveSteps: 4.37, CTG Mean(Std/Min/Max): 5.09(0.76/2.41/6.40)
+Back Steps: 11, %Solved: 8.56, avgSolveSteps: 4.51, CTG Mean(Std/Min/Max): 5.11(0.77/1.11/6.52)
+Back Steps: 12, %Solved: 7.51, avgSolveSteps: 4.48, CTG Mean(Std/Min/Max): 5.18(0.75/2.37/6.51)
+Back Steps: 13, %Solved: 6.16, avgSolveSteps: 4.51, CTG Mean(Std/Min/Max): 5.22(0.67/1.04/6.64)
+Back Steps: 14, %Solved: 3.90, avgSolveSteps: 4.46, CTG Mean(Std/Min/Max): 5.29(0.63/2.24/6.29)
+Back Steps: 15, %Solved: 3.15, avgSolveSteps: 4.71, CTG Mean(Std/Min/Max): 5.29(0.65/2.34/6.58)
+Back Steps: 16, %Solved: 1.80, avgSolveSteps: 3.67, CTG Mean(Std/Min/Max): 5.33(0.60/2.30/6.45)
+Back Steps: 17, %Solved: 2.85, avgSolveSteps: 4.47, CTG Mean(Std/Min/Max): 5.30(0.62/3.19/6.58)
+Back Steps: 18, %Solved: 0.90, avgSolveSteps: 4.67, CTG Mean(Std/Min/Max): 5.33(0.65/2.51/6.43)
+Back Steps: 19, %Solved: 1.20, avgSolveSteps: 4.50, CTG Mean(Std/Min/Max): 5.35(0.60/3.14/6.59)
+Back Steps: 20, %Solved: 0.90, avgSolveSteps: 4.67, CTG Mean(Std/Min/Max): 5.36(0.60/2.34/6.68)
+Test time: 6.14
+Last loss was 0.080841
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.88)
+12.50% (Total time: 5.20)
+23.44% (Total time: 6.46)
+34.38% (Total time: 7.80)
+45.31% (Total time: 9.08)
+56.25% (Total time: 10.33)
+67.19% (Total time: 11.51)
+78.12% (Total time: 12.25)
+89.06% (Total time: 12.64)
+100.00% (Total time: 12.86)
+Cost-to-go (mean/min/max): 4.15/0.00/6.68
+Training model for update number 8 for 50 iterations
+Solving 10000 states with GBFS with 9 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.27(0.00/0.27/0.27)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.14(0.04/1.06/1.22)
+Back Steps: 2, %Solved: 92.81, avgSolveSteps: 1.83, CTG Mean(Std/Min/Max): 2.23(0.58/0.27/2.61)
+Back Steps: 3, %Solved: 86.83, avgSolveSteps: 2.61, CTG Mean(Std/Min/Max): 2.92(0.87/1.06/3.65)
+Back Steps: 4, %Solved: 69.16, avgSolveSteps: 3.23, CTG Mean(Std/Min/Max): 3.53(0.99/0.27/5.68)
+Back Steps: 5, %Solved: 55.39, avgSolveSteps: 3.54, CTG Mean(Std/Min/Max): 3.95(1.20/1.06/6.26)
+Back Steps: 6, %Solved: 39.28, avgSolveSteps: 3.73, CTG Mean(Std/Min/Max): 4.32(1.02/0.27/6.33)
+Back Steps: 7, %Solved: 30.33, avgSolveSteps: 4.01, CTG Mean(Std/Min/Max): 4.67(1.01/1.11/6.09)
+Back Steps: 8, %Solved: 19.37, avgSolveSteps: 4.12, CTG Mean(Std/Min/Max): 4.79(0.90/2.25/6.41)
+Back Steps: 9, %Solved: 15.02, avgSolveSteps: 4.36, CTG Mean(Std/Min/Max): 4.97(0.87/1.11/6.61)
+Back Steps: 10, %Solved: 13.21, avgSolveSteps: 4.55, CTG Mean(Std/Min/Max): 5.03(0.73/2.29/6.48)
+Back Steps: 11, %Solved: 9.76, avgSolveSteps: 4.38, CTG Mean(Std/Min/Max): 5.11(0.80/1.11/6.46)
+Back Steps: 12, %Solved: 8.71, avgSolveSteps: 4.14, CTG Mean(Std/Min/Max): 5.14(0.73/2.36/6.39)
+Back Steps: 13, %Solved: 7.66, avgSolveSteps: 4.88, CTG Mean(Std/Min/Max): 5.18(0.74/1.12/6.68)
+Back Steps: 14, %Solved: 5.41, avgSolveSteps: 5.00, CTG Mean(Std/Min/Max): 5.30(0.65/2.34/6.48)
+Back Steps: 15, %Solved: 4.65, avgSolveSteps: 4.55, CTG Mean(Std/Min/Max): 5.27(0.69/1.11/6.82)
+Back Steps: 16, %Solved: 4.20, avgSolveSteps: 4.29, CTG Mean(Std/Min/Max): 5.29(0.65/2.37/6.66)
+Back Steps: 17, %Solved: 1.80, avgSolveSteps: 5.33, CTG Mean(Std/Min/Max): 5.30(0.62/1.15/6.43)
+Back Steps: 18, %Solved: 1.80, avgSolveSteps: 5.33, CTG Mean(Std/Min/Max): 5.36(0.57/3.43/6.52)
+Back Steps: 19, %Solved: 2.70, avgSolveSteps: 5.44, CTG Mean(Std/Min/Max): 5.33(0.63/3.14/6.66)
+Back Steps: 20, %Solved: 0.90, avgSolveSteps: 6.00, CTG Mean(Std/Min/Max): 5.40(0.52/3.36/6.34)
+Test time: 6.20
+Last loss was 0.082209
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.92)
+12.50% (Total time: 5.25)
+23.44% (Total time: 6.52)
+34.38% (Total time: 7.81)
+45.31% (Total time: 9.13)
+56.25% (Total time: 10.38)
+67.19% (Total time: 11.56)
+78.12% (Total time: 12.26)
+89.06% (Total time: 12.69)
+100.00% (Total time: 12.86)
+Cost-to-go (mean/min/max): 4.15/0.00/6.68
+Training model for update number 8 for 50 iterations
+Itr: 800, lr: 9.99E-04, loss: 8.03E-02, targ_ctg: 4.16, nnet_ctg: 4.20, Time: 0.07
+Solving 10000 states with GBFS with 9 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.68(0.00/0.68/0.68)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.24(0.06/1.11/1.36)
+Back Steps: 2, %Solved: 94.61, avgSolveSteps: 1.79, CTG Mean(Std/Min/Max): 2.14(0.49/0.68/2.43)
+Back Steps: 3, %Solved: 81.44, avgSolveSteps: 2.54, CTG Mean(Std/Min/Max): 2.86(0.82/1.11/3.59)
+Back Steps: 4, %Solved: 71.71, avgSolveSteps: 3.17, CTG Mean(Std/Min/Max): 3.46(0.96/0.68/5.82)
+Back Steps: 5, %Solved: 53.89, avgSolveSteps: 3.58, CTG Mean(Std/Min/Max): 3.99(1.14/1.13/6.23)
+Back Steps: 6, %Solved: 42.43, avgSolveSteps: 3.78, CTG Mean(Std/Min/Max): 4.24(1.06/0.68/6.52)
+Back Steps: 7, %Solved: 35.74, avgSolveSteps: 4.28, CTG Mean(Std/Min/Max): 4.67(1.00/1.23/6.45)
+Back Steps: 8, %Solved: 22.67, avgSolveSteps: 4.17, CTG Mean(Std/Min/Max): 4.71(0.96/0.68/6.46)
+Back Steps: 9, %Solved: 18.62, avgSolveSteps: 4.68, CTG Mean(Std/Min/Max): 5.02(0.80/2.62/6.37)
+Back Steps: 10, %Solved: 11.41, avgSolveSteps: 4.58, CTG Mean(Std/Min/Max): 5.01(0.91/2.27/6.59)
+Back Steps: 11, %Solved: 10.96, avgSolveSteps: 4.67, CTG Mean(Std/Min/Max): 5.14(0.76/2.91/6.53)
+Back Steps: 12, %Solved: 9.01, avgSolveSteps: 4.80, CTG Mean(Std/Min/Max): 5.15(0.77/2.25/6.51)
+Back Steps: 13, %Solved: 6.16, avgSolveSteps: 4.51, CTG Mean(Std/Min/Max): 5.25(0.79/1.13/6.60)
+Back Steps: 14, %Solved: 7.21, avgSolveSteps: 4.50, CTG Mean(Std/Min/Max): 5.16(0.79/2.26/6.40)
+Back Steps: 15, %Solved: 5.26, avgSolveSteps: 4.83, CTG Mean(Std/Min/Max): 5.33(0.68/2.80/6.45)
+Back Steps: 16, %Solved: 2.70, avgSolveSteps: 4.22, CTG Mean(Std/Min/Max): 5.30(0.67/2.38/6.46)
+Back Steps: 17, %Solved: 2.70, avgSolveSteps: 4.78, CTG Mean(Std/Min/Max): 5.34(0.66/2.73/6.71)
+Back Steps: 18, %Solved: 0.60, avgSolveSteps: 6.00, CTG Mean(Std/Min/Max): 5.38(0.63/2.29/6.48)
+Back Steps: 19, %Solved: 1.50, avgSolveSteps: 5.40, CTG Mean(Std/Min/Max): 5.41(0.55/3.69/6.60)
+Back Steps: 20, %Solved: 0.30, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 5.43(0.56/3.26/6.45)
+Test time: 6.41
+Last loss was 0.072289
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.84)
+12.50% (Total time: 5.13)
+23.44% (Total time: 6.43)
+34.38% (Total time: 7.73)
+45.31% (Total time: 9.03)
+56.25% (Total time: 10.28)
+67.19% (Total time: 11.46)
+78.12% (Total time: 12.16)
+89.06% (Total time: 12.62)
+100.00% (Total time: 12.86)
+Cost-to-go (mean/min/max): 4.15/0.00/6.73
+Training model for update number 8 for 50 iterations
+Solving 10000 states with GBFS with 9 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.54(0.00/0.54/0.54)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.21(0.08/1.08/1.33)
+Back Steps: 2, %Solved: 92.96, avgSolveSteps: 1.76, CTG Mean(Std/Min/Max): 2.13(0.57/0.54/2.51)
+Back Steps: 3, %Solved: 87.43, avgSolveSteps: 2.55, CTG Mean(Std/Min/Max): 2.88(0.86/1.08/3.63)
+Back Steps: 4, %Solved: 69.91, avgSolveSteps: 3.12, CTG Mean(Std/Min/Max): 3.38(0.93/0.54/5.20)
+Back Steps: 5, %Solved: 55.39, avgSolveSteps: 3.66, CTG Mean(Std/Min/Max): 4.08(1.10/1.08/6.32)
+Back Steps: 6, %Solved: 43.63, avgSolveSteps: 3.81, CTG Mean(Std/Min/Max): 4.30(1.01/0.54/6.36)
+Back Steps: 7, %Solved: 33.03, avgSolveSteps: 4.05, CTG Mean(Std/Min/Max): 4.56(1.07/1.08/6.32)
+Back Steps: 8, %Solved: 26.13, avgSolveSteps: 4.02, CTG Mean(Std/Min/Max): 4.68(0.98/2.21/6.46)
+Back Steps: 9, %Solved: 23.12, avgSolveSteps: 4.01, CTG Mean(Std/Min/Max): 4.83(0.96/1.08/6.28)
+Back Steps: 10, %Solved: 13.81, avgSolveSteps: 4.65, CTG Mean(Std/Min/Max): 4.97(0.81/2.29/6.31)
+Back Steps: 11, %Solved: 11.11, avgSolveSteps: 4.57, CTG Mean(Std/Min/Max): 5.12(0.82/1.16/6.34)
+Back Steps: 12, %Solved: 7.81, avgSolveSteps: 4.77, CTG Mean(Std/Min/Max): 5.08(0.80/2.30/6.52)
+Back Steps: 13, %Solved: 7.36, avgSolveSteps: 4.51, CTG Mean(Std/Min/Max): 5.23(0.72/1.23/6.40)
+Back Steps: 14, %Solved: 4.20, avgSolveSteps: 4.14, CTG Mean(Std/Min/Max): 5.20(0.76/2.29/6.31)
+Back Steps: 15, %Solved: 4.80, avgSolveSteps: 4.62, CTG Mean(Std/Min/Max): 5.30(0.67/3.17/6.49)
+Back Steps: 16, %Solved: 2.70, avgSolveSteps: 4.67, CTG Mean(Std/Min/Max): 5.29(0.68/2.35/6.52)
+Back Steps: 17, %Solved: 1.35, avgSolveSteps: 4.11, CTG Mean(Std/Min/Max): 5.33(0.64/2.84/6.54)
+Back Steps: 18, %Solved: 1.80, avgSolveSteps: 4.67, CTG Mean(Std/Min/Max): 5.36(0.61/2.95/6.70)
+Back Steps: 19, %Solved: 1.80, avgSolveSteps: 5.00, CTG Mean(Std/Min/Max): 5.39(0.60/2.31/6.51)
+Back Steps: 20, %Solved: 2.40, avgSolveSteps: 4.75, CTG Mean(Std/Min/Max): 5.31(0.67/2.32/6.55)
+Test time: 6.16
+Last loss was 0.065174
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.93)
+12.50% (Total time: 5.25)
+23.44% (Total time: 6.58)
+34.38% (Total time: 7.84)
+45.31% (Total time: 9.20)
+56.25% (Total time: 10.42)
+67.19% (Total time: 11.59)
+78.12% (Total time: 12.30)
+89.06% (Total time: 12.71)
+100.00% (Total time: 12.87)
+Cost-to-go (mean/min/max): 4.16/0.00/6.68
+Training model for update number 8 for 50 iterations
+Itr: 900, lr: 9.99E-04, loss: 6.09E-02, targ_ctg: 4.16, nnet_ctg: 4.20, Time: 0.07
+Solving 10000 states with GBFS with 9 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.35(0.00/0.35/0.35)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.14(0.06/1.02/1.23)
+Back Steps: 2, %Solved: 93.71, avgSolveSteps: 1.86, CTG Mean(Std/Min/Max): 2.16(0.48/0.35/2.44)
+Back Steps: 3, %Solved: 83.23, avgSolveSteps: 2.60, CTG Mean(Std/Min/Max): 2.91(0.80/1.02/3.66)
+Back Steps: 4, %Solved: 68.71, avgSolveSteps: 3.31, CTG Mean(Std/Min/Max): 3.41(0.90/0.35/5.45)
+Back Steps: 5, %Solved: 61.98, avgSolveSteps: 3.74, CTG Mean(Std/Min/Max): 3.93(1.09/1.02/5.89)
+Back Steps: 6, %Solved: 40.18, avgSolveSteps: 3.79, CTG Mean(Std/Min/Max): 4.23(1.02/0.35/6.32)
+Back Steps: 7, %Solved: 31.23, avgSolveSteps: 4.17, CTG Mean(Std/Min/Max): 4.58(1.00/1.02/6.24)
+Back Steps: 8, %Solved: 21.62, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 4.61(0.96/0.35/6.29)
+Back Steps: 9, %Solved: 21.32, avgSolveSteps: 4.55, CTG Mean(Std/Min/Max): 4.90(0.80/2.99/6.44)
+Back Steps: 10, %Solved: 15.62, avgSolveSteps: 4.42, CTG Mean(Std/Min/Max): 4.87(0.90/2.14/6.31)
+Back Steps: 11, %Solved: 11.56, avgSolveSteps: 4.43, CTG Mean(Std/Min/Max): 5.02(0.78/1.15/6.55)
+Back Steps: 12, %Solved: 6.61, avgSolveSteps: 4.27, CTG Mean(Std/Min/Max): 5.04(0.73/2.27/6.41)
+Back Steps: 13, %Solved: 7.21, avgSolveSteps: 4.38, CTG Mean(Std/Min/Max): 5.10(0.72/1.17/6.37)
+Back Steps: 14, %Solved: 2.70, avgSolveSteps: 4.89, CTG Mean(Std/Min/Max): 5.20(0.65/2.18/6.27)
+Back Steps: 15, %Solved: 5.71, avgSolveSteps: 4.84, CTG Mean(Std/Min/Max): 5.13(0.68/1.18/6.44)
+Back Steps: 16, %Solved: 3.30, avgSolveSteps: 4.91, CTG Mean(Std/Min/Max): 5.23(0.58/2.27/6.28)
+Back Steps: 17, %Solved: 1.80, avgSolveSteps: 4.67, CTG Mean(Std/Min/Max): 5.19(0.61/3.13/6.43)
+Back Steps: 18, %Solved: 2.10, avgSolveSteps: 5.14, CTG Mean(Std/Min/Max): 5.14(0.68/2.18/6.28)
+Back Steps: 19, %Solved: 2.10, avgSolveSteps: 5.00, CTG Mean(Std/Min/Max): 5.27(0.59/3.11/6.45)
+Back Steps: 20, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 5.25(0.61/2.80/6.35)
+Test time: 6.15
+Last loss was 0.059157
+Updating target network
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.82)
+12.50% (Total time: 5.08)
+23.44% (Total time: 6.38)
+34.38% (Total time: 7.65)
+45.31% (Total time: 9.02)
+56.25% (Total time: 10.25)
+67.19% (Total time: 11.31)
+78.12% (Total time: 12.10)
+89.06% (Total time: 12.53)
+100.00% (Total time: 12.71)
+Cost-to-go (mean/min/max): 4.34/0.00/7.00
+Training model for update number 9 for 50 iterations
+Solving 10000 states with GBFS with 10 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.48(0.00/0.48/0.48)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.49(0.03/1.42/1.56)
+Back Steps: 2, %Solved: 95.06, avgSolveSteps: 1.80, CTG Mean(Std/Min/Max): 2.10(0.53/0.48/2.58)
+Back Steps: 3, %Solved: 87.72, avgSolveSteps: 2.54, CTG Mean(Std/Min/Max): 3.02(0.81/1.42/3.82)
+Back Steps: 4, %Solved: 73.80, avgSolveSteps: 3.16, CTG Mean(Std/Min/Max): 3.61(1.12/0.48/5.84)
+Back Steps: 5, %Solved: 64.07, avgSolveSteps: 3.75, CTG Mean(Std/Min/Max): 4.18(1.09/1.42/6.22)
+Back Steps: 6, %Solved: 41.83, avgSolveSteps: 3.66, CTG Mean(Std/Min/Max): 4.43(1.13/0.48/6.54)
+Back Steps: 7, %Solved: 38.44, avgSolveSteps: 3.98, CTG Mean(Std/Min/Max): 4.70(1.06/1.44/6.46)
+Back Steps: 8, %Solved: 24.02, avgSolveSteps: 4.24, CTG Mean(Std/Min/Max): 4.91(0.97/0.48/6.70)
+Back Steps: 9, %Solved: 21.02, avgSolveSteps: 4.49, CTG Mean(Std/Min/Max): 5.10(0.80/1.46/6.68)
+Back Steps: 10, %Solved: 14.41, avgSolveSteps: 4.38, CTG Mean(Std/Min/Max): 5.25(0.84/0.48/6.63)
+Back Steps: 11, %Solved: 14.56, avgSolveSteps: 4.71, CTG Mean(Std/Min/Max): 5.29(0.75/1.49/6.92)
+Back Steps: 12, %Solved: 7.21, avgSolveSteps: 4.58, CTG Mean(Std/Min/Max): 5.32(0.76/2.24/6.67)
+Back Steps: 13, %Solved: 5.86, avgSolveSteps: 4.64, CTG Mean(Std/Min/Max): 5.37(0.70/1.47/6.72)
+Back Steps: 14, %Solved: 4.50, avgSolveSteps: 4.40, CTG Mean(Std/Min/Max): 5.38(0.71/2.19/6.64)
+Back Steps: 15, %Solved: 4.05, avgSolveSteps: 5.00, CTG Mean(Std/Min/Max): 5.44(0.62/3.27/6.61)
+Back Steps: 16, %Solved: 4.50, avgSolveSteps: 5.20, CTG Mean(Std/Min/Max): 5.51(0.60/3.36/6.75)
+Back Steps: 17, %Solved: 2.40, avgSolveSteps: 4.88, CTG Mean(Std/Min/Max): 5.54(0.64/1.49/6.87)
+Back Steps: 18, %Solved: 1.80, avgSolveSteps: 4.33, CTG Mean(Std/Min/Max): 5.59(0.58/2.29/6.76)
+Back Steps: 19, %Solved: 1.20, avgSolveSteps: 4.50, CTG Mean(Std/Min/Max): 5.52(0.63/3.34/6.80)
+Back Steps: 20, %Solved: 2.10, avgSolveSteps: 5.43, CTG Mean(Std/Min/Max): 5.54(0.61/2.20/6.67)
+Test time: 6.75
+Last loss was 0.065707
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.96)
+12.50% (Total time: 5.26)
+23.44% (Total time: 6.55)
+34.38% (Total time: 7.81)
+45.31% (Total time: 9.17)
+56.25% (Total time: 10.40)
+67.19% (Total time: 11.58)
+78.12% (Total time: 12.28)
+89.06% (Total time: 12.70)
+100.00% (Total time: 12.87)
+Cost-to-go (mean/min/max): 4.34/0.00/7.11
+Training model for update number 9 for 50 iterations
+Itr: 1000, lr: 9.99E-04, loss: 7.44E-02, targ_ctg: 4.35, nnet_ctg: 4.43, Time: 0.07
+Solving 10000 states with GBFS with 10 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.32(0.00/0.32/0.32)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.42(0.04/1.35/1.50)
+Back Steps: 2, %Solved: 92.51, avgSolveSteps: 1.84, CTG Mean(Std/Min/Max): 2.05(0.50/0.32/2.44)
+Back Steps: 3, %Solved: 80.24, avgSolveSteps: 2.51, CTG Mean(Std/Min/Max): 2.91(0.80/1.35/3.64)
+Back Steps: 4, %Solved: 76.95, avgSolveSteps: 3.23, CTG Mean(Std/Min/Max): 3.59(1.14/0.32/5.48)
+Back Steps: 5, %Solved: 60.18, avgSolveSteps: 3.51, CTG Mean(Std/Min/Max): 4.01(1.22/1.35/6.26)
+Back Steps: 6, %Solved: 43.93, avgSolveSteps: 3.91, CTG Mean(Std/Min/Max): 4.43(1.06/0.32/6.54)
+Back Steps: 7, %Solved: 35.14, avgSolveSteps: 4.04, CTG Mean(Std/Min/Max): 4.64(1.10/1.38/6.30)
+Back Steps: 8, %Solved: 24.17, avgSolveSteps: 4.29, CTG Mean(Std/Min/Max): 4.93(0.93/0.32/6.63)
+Back Steps: 9, %Solved: 17.72, avgSolveSteps: 4.32, CTG Mean(Std/Min/Max): 5.02(0.89/1.42/6.48)
+Back Steps: 10, %Solved: 12.91, avgSolveSteps: 4.19, CTG Mean(Std/Min/Max): 5.20(0.88/2.11/6.76)
+Back Steps: 11, %Solved: 13.96, avgSolveSteps: 4.78, CTG Mean(Std/Min/Max): 5.23(0.81/1.41/6.68)
+Back Steps: 12, %Solved: 5.41, avgSolveSteps: 4.56, CTG Mean(Std/Min/Max): 5.37(0.66/2.11/6.64)
+Back Steps: 13, %Solved: 7.66, avgSolveSteps: 4.65, CTG Mean(Std/Min/Max): 5.35(0.71/1.38/6.71)
+Back Steps: 14, %Solved: 4.80, avgSolveSteps: 4.62, CTG Mean(Std/Min/Max): 5.45(0.73/2.02/6.66)
+Back Steps: 15, %Solved: 3.90, avgSolveSteps: 4.77, CTG Mean(Std/Min/Max): 5.46(0.67/3.12/6.75)
+Back Steps: 16, %Solved: 3.30, avgSolveSteps: 5.09, CTG Mean(Std/Min/Max): 5.52(0.60/3.20/6.68)
+Back Steps: 17, %Solved: 4.05, avgSolveSteps: 5.15, CTG Mean(Std/Min/Max): 5.45(0.68/1.38/6.78)
+Back Steps: 18, %Solved: 1.20, avgSolveSteps: 4.50, CTG Mean(Std/Min/Max): 5.51(0.65/2.09/6.66)
+Back Steps: 19, %Solved: 1.20, avgSolveSteps: 5.00, CTG Mean(Std/Min/Max): 5.51(0.61/2.14/6.69)
+Back Steps: 20, %Solved: 1.50, avgSolveSteps: 4.80, CTG Mean(Std/Min/Max): 5.48(0.69/2.09/6.86)
+Test time: 6.72
+Last loss was 0.062004
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.87)
+12.50% (Total time: 5.14)
+23.44% (Total time: 6.44)
+34.38% (Total time: 7.70)
+45.31% (Total time: 9.02)
+56.25% (Total time: 10.27)
+67.19% (Total time: 11.52)
+78.12% (Total time: 12.15)
+89.06% (Total time: 12.58)
+100.00% (Total time: 12.76)
+Cost-to-go (mean/min/max): 4.34/0.00/7.11
+Training model for update number 9 for 50 iterations
+Solving 10000 states with GBFS with 10 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): -0.08(0.00/-0.08/-0.08)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.31(0.06/1.23/1.41)
+Back Steps: 2, %Solved: 95.66, avgSolveSteps: 1.80, CTG Mean(Std/Min/Max): 2.00(0.67/-0.08/2.39)
+Back Steps: 3, %Solved: 86.83, avgSolveSteps: 2.64, CTG Mean(Std/Min/Max): 2.98(0.81/1.23/3.70)
+Back Steps: 4, %Solved: 78.89, avgSolveSteps: 3.29, CTG Mean(Std/Min/Max): 3.62(1.09/-0.08/5.36)
+Back Steps: 5, %Solved: 60.78, avgSolveSteps: 3.56, CTG Mean(Std/Min/Max): 3.98(1.08/1.23/6.31)
+Back Steps: 6, %Solved: 43.78, avgSolveSteps: 3.87, CTG Mean(Std/Min/Max): 4.43(1.07/-0.08/6.55)
+Back Steps: 7, %Solved: 37.54, avgSolveSteps: 4.31, CTG Mean(Std/Min/Max): 4.68(1.06/1.23/6.46)
+Back Steps: 8, %Solved: 25.08, avgSolveSteps: 4.14, CTG Mean(Std/Min/Max): 4.88(0.98/2.08/6.64)
+Back Steps: 9, %Solved: 21.32, avgSolveSteps: 4.41, CTG Mean(Std/Min/Max): 5.01(0.85/1.24/6.75)
+Back Steps: 10, %Solved: 16.52, avgSolveSteps: 4.44, CTG Mean(Std/Min/Max): 5.16(0.83/-0.08/6.47)
+Back Steps: 11, %Solved: 12.46, avgSolveSteps: 4.64, CTG Mean(Std/Min/Max): 5.11(0.81/1.33/6.67)
+Back Steps: 12, %Solved: 11.41, avgSolveSteps: 5.00, CTG Mean(Std/Min/Max): 5.24(0.71/2.19/6.74)
+Back Steps: 13, %Solved: 8.26, avgSolveSteps: 4.93, CTG Mean(Std/Min/Max): 5.32(0.70/2.26/6.59)
+Back Steps: 14, %Solved: 6.91, avgSolveSteps: 4.43, CTG Mean(Std/Min/Max): 5.34(0.71/2.17/6.71)
+Back Steps: 15, %Solved: 4.35, avgSolveSteps: 4.72, CTG Mean(Std/Min/Max): 5.44(0.58/3.19/6.68)
+Back Steps: 16, %Solved: 4.80, avgSolveSteps: 4.62, CTG Mean(Std/Min/Max): 5.39(0.70/-0.08/6.75)
+Back Steps: 17, %Solved: 3.00, avgSolveSteps: 4.80, CTG Mean(Std/Min/Max): 5.47(0.58/3.20/6.83)
+Back Steps: 18, %Solved: 2.40, avgSolveSteps: 4.75, CTG Mean(Std/Min/Max): 5.42(0.67/2.21/6.72)
+Back Steps: 19, %Solved: 1.80, avgSolveSteps: 4.67, CTG Mean(Std/Min/Max): 5.48(0.57/3.36/6.66)
+Back Steps: 20, %Solved: 1.20, avgSolveSteps: 6.00, CTG Mean(Std/Min/Max): 5.50(0.55/3.73/6.62)
+Test time: 6.69
+Last loss was 0.056591
+Updating target network
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.86)
+12.50% (Total time: 5.13)
+23.44% (Total time: 6.46)
+34.38% (Total time: 7.77)
+45.31% (Total time: 9.03)
+56.25% (Total time: 10.33)
+67.19% (Total time: 11.49)
+78.12% (Total time: 12.17)
+89.06% (Total time: 12.62)
+100.00% (Total time: 12.83)
+Cost-to-go (mean/min/max): 4.53/0.00/7.43
+Training model for update number 10 for 50 iterations
+Itr: 1100, lr: 9.99E-04, loss: 1.30E-01, targ_ctg: 4.54, nnet_ctg: 4.37, Time: 0.07
+Solving 10000 states with GBFS with 11 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.51(0.00/0.51/0.51)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.23(0.11/1.02/1.37)
+Back Steps: 2, %Solved: 95.21, avgSolveSteps: 1.80, CTG Mean(Std/Min/Max): 2.23(0.57/0.51/2.74)
+Back Steps: 3, %Solved: 85.63, avgSolveSteps: 2.43, CTG Mean(Std/Min/Max): 2.77(0.94/1.02/3.74)
+Back Steps: 4, %Solved: 77.54, avgSolveSteps: 3.26, CTG Mean(Std/Min/Max): 3.81(1.10/0.51/5.52)
+Back Steps: 5, %Solved: 58.38, avgSolveSteps: 3.49, CTG Mean(Std/Min/Max): 4.06(1.30/1.02/6.39)
+Back Steps: 6, %Solved: 46.03, avgSolveSteps: 4.05, CTG Mean(Std/Min/Max): 4.65(1.05/0.51/6.66)
+Back Steps: 7, %Solved: 33.93, avgSolveSteps: 4.22, CTG Mean(Std/Min/Max): 4.83(1.14/1.22/6.71)
+Back Steps: 8, %Solved: 26.28, avgSolveSteps: 4.37, CTG Mean(Std/Min/Max): 5.18(0.98/0.51/6.81)
+Back Steps: 9, %Solved: 20.72, avgSolveSteps: 4.80, CTG Mean(Std/Min/Max): 5.32(0.91/1.30/6.76)
+Back Steps: 10, %Solved: 12.61, avgSolveSteps: 4.52, CTG Mean(Std/Min/Max): 5.44(0.83/0.51/6.89)
+Back Steps: 11, %Solved: 13.66, avgSolveSteps: 4.93, CTG Mean(Std/Min/Max): 5.50(0.78/1.37/6.92)
+Back Steps: 12, %Solved: 9.91, avgSolveSteps: 5.09, CTG Mean(Std/Min/Max): 5.48(0.71/2.36/6.78)
+Back Steps: 13, %Solved: 7.21, avgSolveSteps: 4.79, CTG Mean(Std/Min/Max): 5.58(0.76/1.19/6.88)
+Back Steps: 14, %Solved: 6.31, avgSolveSteps: 5.81, CTG Mean(Std/Min/Max): 5.64(0.65/2.33/6.76)
+Back Steps: 15, %Solved: 4.65, avgSolveSteps: 5.84, CTG Mean(Std/Min/Max): 5.69(0.62/2.40/6.90)
+Back Steps: 16, %Solved: 3.00, avgSolveSteps: 5.20, CTG Mean(Std/Min/Max): 5.74(0.61/2.37/6.95)
+Back Steps: 17, %Solved: 3.90, avgSolveSteps: 4.85, CTG Mean(Std/Min/Max): 5.69(0.63/1.33/6.91)
+Back Steps: 18, %Solved: 1.50, avgSolveSteps: 4.80, CTG Mean(Std/Min/Max): 5.79(0.54/3.39/7.03)
+Back Steps: 19, %Solved: 0.90, avgSolveSteps: 5.67, CTG Mean(Std/Min/Max): 5.79(0.58/2.62/6.98)
+Back Steps: 20, %Solved: 2.10, avgSolveSteps: 6.00, CTG Mean(Std/Min/Max): 5.74(0.55/3.24/7.14)
+Test time: 7.33
+Last loss was 0.060196
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.83)
+12.50% (Total time: 5.11)
+23.44% (Total time: 6.38)
+34.38% (Total time: 7.71)
+45.31% (Total time: 8.97)
+56.25% (Total time: 10.25)
+67.19% (Total time: 11.43)
+78.12% (Total time: 12.13)
+89.06% (Total time: 12.56)
+100.00% (Total time: 12.74)
+Cost-to-go (mean/min/max): 4.53/0.00/7.33
+Training model for update number 10 for 50 iterations
+Solving 10000 states with GBFS with 11 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.52(0.00/0.52/0.52)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.11(0.07/0.96/1.26)
+Back Steps: 2, %Solved: 96.86, avgSolveSteps: 1.78, CTG Mean(Std/Min/Max): 2.13(0.55/0.52/2.50)
+Back Steps: 3, %Solved: 89.52, avgSolveSteps: 2.63, CTG Mean(Std/Min/Max): 2.89(0.81/0.96/3.56)
+Back Steps: 4, %Solved: 75.15, avgSolveSteps: 3.39, CTG Mean(Std/Min/Max): 3.74(1.14/0.52/5.45)
+Back Steps: 5, %Solved: 65.27, avgSolveSteps: 3.82, CTG Mean(Std/Min/Max): 4.20(1.21/0.96/6.37)
+Back Steps: 6, %Solved: 46.78, avgSolveSteps: 4.16, CTG Mean(Std/Min/Max): 4.64(1.12/0.52/6.85)
+Back Steps: 7, %Solved: 39.04, avgSolveSteps: 4.32, CTG Mean(Std/Min/Max): 4.90(1.10/0.96/6.71)
+Back Steps: 8, %Solved: 27.63, avgSolveSteps: 4.63, CTG Mean(Std/Min/Max): 5.12(0.89/0.52/6.90)
+Back Steps: 9, %Solved: 29.43, avgSolveSteps: 4.53, CTG Mean(Std/Min/Max): 5.17(1.00/0.96/6.74)
+Back Steps: 10, %Solved: 11.71, avgSolveSteps: 4.36, CTG Mean(Std/Min/Max): 5.31(0.86/2.17/6.65)
+Back Steps: 11, %Solved: 13.81, avgSolveSteps: 4.93, CTG Mean(Std/Min/Max): 5.53(0.76/1.10/6.93)
+Back Steps: 12, %Solved: 10.21, avgSolveSteps: 5.53, CTG Mean(Std/Min/Max): 5.48(0.66/2.40/6.71)
+Back Steps: 13, %Solved: 8.26, avgSolveSteps: 4.89, CTG Mean(Std/Min/Max): 5.56(0.70/0.96/6.69)
+Back Steps: 14, %Solved: 7.51, avgSolveSteps: 4.96, CTG Mean(Std/Min/Max): 5.58(0.68/2.30/6.84)
+Back Steps: 15, %Solved: 4.05, avgSolveSteps: 5.07, CTG Mean(Std/Min/Max): 5.64(0.64/3.06/6.83)
+Back Steps: 16, %Solved: 3.60, avgSolveSteps: 6.00, CTG Mean(Std/Min/Max): 5.64(0.61/3.17/6.75)
+Back Steps: 17, %Solved: 3.30, avgSolveSteps: 5.09, CTG Mean(Std/Min/Max): 5.71(0.57/3.09/6.83)
+Back Steps: 18, %Solved: 2.70, avgSolveSteps: 5.78, CTG Mean(Std/Min/Max): 5.72(0.57/2.37/6.92)
+Back Steps: 19, %Solved: 1.80, avgSolveSteps: 6.00, CTG Mean(Std/Min/Max): 5.72(0.55/3.18/6.82)
+Back Steps: 20, %Solved: 1.80, avgSolveSteps: 6.33, CTG Mean(Std/Min/Max): 5.75(0.53/3.31/6.67)
+Test time: 7.68
+Last loss was 0.064115
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.91)
+12.50% (Total time: 5.23)
+23.44% (Total time: 6.60)
+34.38% (Total time: 7.98)
+45.31% (Total time: 9.29)
+56.25% (Total time: 10.58)
+67.19% (Total time: 11.80)
+78.12% (Total time: 12.62)
+89.06% (Total time: 12.93)
+100.00% (Total time: 13.14)
+Cost-to-go (mean/min/max): 4.53/0.00/7.41
+Training model for update number 10 for 50 iterations
+Itr: 1200, lr: 9.99E-04, loss: 5.56E-02, targ_ctg: 4.51, nnet_ctg: 4.51, Time: 0.07
+Solving 10000 states with GBFS with 11 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.33(0.00/0.33/0.33)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.07(0.06/0.97/1.21)
+Back Steps: 2, %Solved: 96.26, avgSolveSteps: 1.83, CTG Mean(Std/Min/Max): 2.16(0.55/0.33/2.46)
+Back Steps: 3, %Solved: 86.23, avgSolveSteps: 2.67, CTG Mean(Std/Min/Max): 2.80(0.82/0.97/3.57)
+Back Steps: 4, %Solved: 72.31, avgSolveSteps: 3.33, CTG Mean(Std/Min/Max): 3.73(1.08/0.33/5.42)
+Back Steps: 5, %Solved: 64.37, avgSolveSteps: 3.77, CTG Mean(Std/Min/Max): 4.22(1.37/0.97/6.59)
+Back Steps: 6, %Solved: 44.83, avgSolveSteps: 4.15, CTG Mean(Std/Min/Max): 4.63(1.11/0.33/6.91)
+Back Steps: 7, %Solved: 43.54, avgSolveSteps: 4.21, CTG Mean(Std/Min/Max): 4.81(1.21/0.97/6.93)
+Back Steps: 8, %Solved: 26.43, avgSolveSteps: 4.70, CTG Mean(Std/Min/Max): 5.16(0.93/2.19/6.79)
+Back Steps: 9, %Solved: 27.33, avgSolveSteps: 4.74, CTG Mean(Std/Min/Max): 5.15(1.04/1.16/6.72)
+Back Steps: 10, %Solved: 15.92, avgSolveSteps: 4.49, CTG Mean(Std/Min/Max): 5.34(0.84/2.29/6.83)
+Back Steps: 11, %Solved: 16.07, avgSolveSteps: 4.63, CTG Mean(Std/Min/Max): 5.42(0.89/0.97/6.85)
+Back Steps: 12, %Solved: 10.51, avgSolveSteps: 4.40, CTG Mean(Std/Min/Max): 5.50(0.78/2.22/6.81)
+Back Steps: 13, %Solved: 8.56, avgSolveSteps: 5.14, CTG Mean(Std/Min/Max): 5.61(0.70/3.01/6.91)
+Back Steps: 14, %Solved: 4.80, avgSolveSteps: 5.38, CTG Mean(Std/Min/Max): 5.62(0.61/2.41/6.94)
+Back Steps: 15, %Solved: 6.46, avgSolveSteps: 4.72, CTG Mean(Std/Min/Max): 5.64(0.69/0.97/6.88)
+Back Steps: 16, %Solved: 3.00, avgSolveSteps: 5.00, CTG Mean(Std/Min/Max): 5.69(0.67/2.23/6.97)
+Back Steps: 17, %Solved: 1.80, avgSolveSteps: 5.17, CTG Mean(Std/Min/Max): 5.69(0.60/0.97/6.72)
+Back Steps: 18, %Solved: 3.30, avgSolveSteps: 6.36, CTG Mean(Std/Min/Max): 5.72(0.62/2.28/7.16)
+Back Steps: 19, %Solved: 2.70, avgSolveSteps: 4.78, CTG Mean(Std/Min/Max): 5.72(0.64/3.15/6.82)
+Back Steps: 20, %Solved: 1.80, avgSolveSteps: 4.67, CTG Mean(Std/Min/Max): 5.76(0.59/1.16/7.16)
+Test time: 7.56
+Last loss was 0.054298
+Updating target network
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.83)
+12.50% (Total time: 5.12)
+23.44% (Total time: 6.42)
+34.38% (Total time: 7.77)
+45.31% (Total time: 9.15)
+56.25% (Total time: 10.43)
+67.19% (Total time: 11.66)
+78.12% (Total time: 12.37)
+89.06% (Total time: 12.79)
+100.00% (Total time: 13.02)
+Cost-to-go (mean/min/max): 4.70/0.00/7.57
+Training model for update number 11 for 50 iterations
+Solving 10000 states with GBFS with 12 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.21(0.00/0.21/0.21)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.40(0.02/1.35/1.43)
+Back Steps: 2, %Solved: 95.36, avgSolveSteps: 1.86, CTG Mean(Std/Min/Max): 1.98(0.48/0.21/2.26)
+Back Steps: 3, %Solved: 85.93, avgSolveSteps: 2.67, CTG Mean(Std/Min/Max): 3.01(0.71/1.35/3.75)
+Back Steps: 4, %Solved: 76.05, avgSolveSteps: 3.36, CTG Mean(Std/Min/Max): 3.62(1.13/0.21/5.44)
+Back Steps: 5, %Solved: 58.08, avgSolveSteps: 3.86, CTG Mean(Std/Min/Max): 4.28(1.28/1.35/6.71)
+Back Steps: 6, %Solved: 47.98, avgSolveSteps: 4.10, CTG Mean(Std/Min/Max): 4.69(1.29/0.21/7.39)
+Back Steps: 7, %Solved: 36.04, avgSolveSteps: 4.43, CTG Mean(Std/Min/Max): 5.15(1.23/1.36/7.19)
+Back Steps: 8, %Solved: 26.73, avgSolveSteps: 4.56, CTG Mean(Std/Min/Max): 5.24(1.17/0.21/7.02)
+Back Steps: 9, %Solved: 22.52, avgSolveSteps: 4.52, CTG Mean(Std/Min/Max): 5.43(1.12/1.36/6.90)
+Back Steps: 10, %Solved: 15.32, avgSolveSteps: 4.98, CTG Mean(Std/Min/Max): 5.58(0.93/2.07/6.98)
+Back Steps: 11, %Solved: 15.77, avgSolveSteps: 5.27, CTG Mean(Std/Min/Max): 5.74(0.84/1.38/7.30)
+Back Steps: 12, %Solved: 7.51, avgSolveSteps: 4.96, CTG Mean(Std/Min/Max): 5.84(0.76/2.11/7.04)
+Back Steps: 13, %Solved: 8.41, avgSolveSteps: 5.32, CTG Mean(Std/Min/Max): 5.86(0.74/1.39/7.18)
+Back Steps: 14, %Solved: 4.50, avgSolveSteps: 4.80, CTG Mean(Std/Min/Max): 5.86(0.75/2.05/6.98)
+Back Steps: 15, %Solved: 4.80, avgSolveSteps: 5.56, CTG Mean(Std/Min/Max): 5.98(0.64/3.22/7.29)
+Back Steps: 16, %Solved: 4.80, avgSolveSteps: 4.75, CTG Mean(Std/Min/Max): 5.93(0.77/2.08/7.25)
+Back Steps: 17, %Solved: 4.05, avgSolveSteps: 5.15, CTG Mean(Std/Min/Max): 5.99(0.63/3.15/7.20)
+Back Steps: 18, %Solved: 2.70, avgSolveSteps: 6.00, CTG Mean(Std/Min/Max): 6.02(0.64/2.13/7.15)
+Back Steps: 19, %Solved: 1.50, avgSolveSteps: 7.40, CTG Mean(Std/Min/Max): 5.98(0.66/3.21/7.43)
+Back Steps: 20, %Solved: 3.00, avgSolveSteps: 5.80, CTG Mean(Std/Min/Max): 6.01(0.64/3.12/7.05)
+Test time: 8.30
+Last loss was 0.076457
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.94)
+12.50% (Total time: 5.30)
+23.44% (Total time: 6.62)
+34.38% (Total time: 7.96)
+45.31% (Total time: 9.32)
+56.25% (Total time: 10.62)
+67.19% (Total time: 11.79)
+78.12% (Total time: 12.48)
+89.06% (Total time: 12.91)
+100.00% (Total time: 13.14)
+Cost-to-go (mean/min/max): 4.71/0.00/7.67
+Training model for update number 11 for 50 iterations
+Itr: 1300, lr: 9.99E-04, loss: 7.77E-02, targ_ctg: 4.69, nnet_ctg: 4.68, Time: 0.07
+Solving 10000 states with GBFS with 12 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.09(0.00/0.09/0.09)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.42(0.03/1.37/1.49)
+Back Steps: 2, %Solved: 95.06, avgSolveSteps: 1.80, CTG Mean(Std/Min/Max): 1.93(0.63/0.09/2.32)
+Back Steps: 3, %Solved: 86.53, avgSolveSteps: 2.74, CTG Mean(Std/Min/Max): 3.09(0.70/1.37/3.77)
+Back Steps: 4, %Solved: 70.81, avgSolveSteps: 3.37, CTG Mean(Std/Min/Max): 3.64(1.12/0.09/5.36)
+Back Steps: 5, %Solved: 61.68, avgSolveSteps: 3.90, CTG Mean(Std/Min/Max): 4.39(1.26/1.37/6.60)
+Back Steps: 6, %Solved: 45.73, avgSolveSteps: 3.96, CTG Mean(Std/Min/Max): 4.59(1.23/0.09/6.82)
+Back Steps: 7, %Solved: 41.44, avgSolveSteps: 4.49, CTG Mean(Std/Min/Max): 5.09(1.15/1.41/6.69)
+Back Steps: 8, %Solved: 32.28, avgSolveSteps: 4.42, CTG Mean(Std/Min/Max): 5.11(1.12/0.09/6.78)
+Back Steps: 9, %Solved: 23.12, avgSolveSteps: 4.82, CTG Mean(Std/Min/Max): 5.47(0.94/1.37/6.82)
+Back Steps: 10, %Solved: 18.02, avgSolveSteps: 4.83, CTG Mean(Std/Min/Max): 5.53(0.92/2.02/7.13)
+Back Steps: 11, %Solved: 13.21, avgSolveSteps: 5.02, CTG Mean(Std/Min/Max): 5.62(0.89/1.42/7.01)
+Back Steps: 12, %Solved: 10.21, avgSolveSteps: 5.12, CTG Mean(Std/Min/Max): 5.73(0.74/2.18/6.92)
+Back Steps: 13, %Solved: 8.71, avgSolveSteps: 5.00, CTG Mean(Std/Min/Max): 5.74(0.80/1.37/6.92)
+Back Steps: 14, %Solved: 7.21, avgSolveSteps: 5.67, CTG Mean(Std/Min/Max): 5.83(0.70/2.15/7.03)
+Back Steps: 15, %Solved: 4.95, avgSolveSteps: 4.94, CTG Mean(Std/Min/Max): 5.82(0.72/1.44/7.11)
+Back Steps: 16, %Solved: 5.41, avgSolveSteps: 6.00, CTG Mean(Std/Min/Max): 5.92(0.66/2.12/7.03)
+Back Steps: 17, %Solved: 3.60, avgSolveSteps: 5.25, CTG Mean(Std/Min/Max): 5.88(0.59/3.16/7.09)
+Back Steps: 18, %Solved: 2.10, avgSolveSteps: 6.00, CTG Mean(Std/Min/Max): 5.96(0.59/2.20/7.16)
+Back Steps: 19, %Solved: 2.70, avgSolveSteps: 6.56, CTG Mean(Std/Min/Max): 5.92(0.65/2.16/7.03)
+Back Steps: 20, %Solved: 3.00, avgSolveSteps: 5.80, CTG Mean(Std/Min/Max): 5.90(0.61/2.11/6.79)
+Test time: 8.06
+Last loss was 0.079982
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.95)
+12.50% (Total time: 5.26)
+23.44% (Total time: 6.55)
+34.38% (Total time: 7.84)
+45.31% (Total time: 9.13)
+56.25% (Total time: 10.38)
+67.19% (Total time: 11.56)
+78.12% (Total time: 12.26)
+89.06% (Total time: 12.69)
+100.00% (Total time: 12.92)
+Cost-to-go (mean/min/max): 4.70/0.00/7.67
+Training model for update number 11 for 50 iterations
+Solving 10000 states with GBFS with 12 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.11(0.00/0.11/0.11)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.33(0.03/1.26/1.37)
+Back Steps: 2, %Solved: 93.26, avgSolveSteps: 1.83, CTG Mean(Std/Min/Max): 1.97(0.55/0.11/2.36)
+Back Steps: 3, %Solved: 89.22, avgSolveSteps: 2.73, CTG Mean(Std/Min/Max): 3.06(0.75/1.26/3.72)
+Back Steps: 4, %Solved: 77.25, avgSolveSteps: 3.37, CTG Mean(Std/Min/Max): 3.63(1.18/0.11/5.53)
+Back Steps: 5, %Solved: 68.86, avgSolveSteps: 4.08, CTG Mean(Std/Min/Max): 4.35(1.43/1.26/6.66)
+Back Steps: 6, %Solved: 46.48, avgSolveSteps: 4.35, CTG Mean(Std/Min/Max): 4.79(1.17/0.11/6.85)
+Back Steps: 7, %Solved: 38.74, avgSolveSteps: 4.80, CTG Mean(Std/Min/Max): 5.12(1.30/1.29/7.25)
+Back Steps: 8, %Solved: 29.58, avgSolveSteps: 4.76, CTG Mean(Std/Min/Max): 5.32(1.11/0.11/7.18)
+Back Steps: 9, %Solved: 21.92, avgSolveSteps: 4.81, CTG Mean(Std/Min/Max): 5.56(0.99/1.33/7.01)
+Back Steps: 10, %Solved: 20.72, avgSolveSteps: 4.64, CTG Mean(Std/Min/Max): 5.45(1.12/0.11/7.00)
+Back Steps: 11, %Solved: 17.27, avgSolveSteps: 5.24, CTG Mean(Std/Min/Max): 5.78(0.81/1.32/7.15)
+Back Steps: 12, %Solved: 11.41, avgSolveSteps: 5.58, CTG Mean(Std/Min/Max): 5.91(0.72/2.13/7.11)
+Back Steps: 13, %Solved: 9.46, avgSolveSteps: 5.41, CTG Mean(Std/Min/Max): 5.87(0.81/1.37/7.20)
+Back Steps: 14, %Solved: 8.41, avgSolveSteps: 5.07, CTG Mean(Std/Min/Max): 5.93(0.77/2.00/7.17)
+Back Steps: 15, %Solved: 5.71, avgSolveSteps: 5.79, CTG Mean(Std/Min/Max): 6.02(0.62/3.35/7.24)
+Back Steps: 16, %Solved: 3.90, avgSolveSteps: 5.85, CTG Mean(Std/Min/Max): 5.99(0.64/2.09/6.98)
+Back Steps: 17, %Solved: 4.05, avgSolveSteps: 5.89, CTG Mean(Std/Min/Max): 6.03(0.63/1.31/7.38)
+Back Steps: 18, %Solved: 3.30, avgSolveSteps: 5.82, CTG Mean(Std/Min/Max): 6.01(0.63/2.18/7.42)
+Back Steps: 19, %Solved: 3.00, avgSolveSteps: 5.80, CTG Mean(Std/Min/Max): 6.11(0.57/3.37/7.40)
+Back Steps: 20, %Solved: 2.70, avgSolveSteps: 6.22, CTG Mean(Std/Min/Max): 6.09(0.56/2.18/7.43)
+Test time: 7.76
+Last loss was 0.071449
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.81)
+12.50% (Total time: 5.11)
+23.44% (Total time: 6.37)
+34.38% (Total time: 7.70)
+45.31% (Total time: 8.97)
+56.25% (Total time: 10.21)
+67.19% (Total time: 11.46)
+78.12% (Total time: 12.08)
+89.06% (Total time: 12.50)
+100.00% (Total time: 12.73)
+Cost-to-go (mean/min/max): 4.71/0.00/7.60
+Training model for update number 11 for 50 iterations
+Itr: 1400, lr: 9.99E-04, loss: 7.28E-02, targ_ctg: 4.73, nnet_ctg: 4.65, Time: 0.07
+Solving 10000 states with GBFS with 12 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): -0.14(0.00/-0.14/-0.14)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.32(0.03/1.25/1.36)
+Back Steps: 2, %Solved: 95.51, avgSolveSteps: 1.78, CTG Mean(Std/Min/Max): 1.85(0.68/-0.14/2.30)
+Back Steps: 3, %Solved: 93.11, avgSolveSteps: 2.54, CTG Mean(Std/Min/Max): 2.82(0.85/1.25/3.60)
+Back Steps: 4, %Solved: 76.20, avgSolveSteps: 3.24, CTG Mean(Std/Min/Max): 3.39(1.16/-0.14/5.21)
+Back Steps: 5, %Solved: 64.67, avgSolveSteps: 4.39, CTG Mean(Std/Min/Max): 4.39(1.26/1.25/6.52)
+Back Steps: 6, %Solved: 46.93, avgSolveSteps: 4.19, CTG Mean(Std/Min/Max): 4.59(1.28/-0.14/6.79)
+Back Steps: 7, %Solved: 43.84, avgSolveSteps: 4.68, CTG Mean(Std/Min/Max): 4.98(1.15/1.31/6.85)
+Back Steps: 8, %Solved: 30.03, avgSolveSteps: 4.69, CTG Mean(Std/Min/Max): 5.16(1.15/-0.14/7.12)
+Back Steps: 9, %Solved: 27.33, avgSolveSteps: 5.22, CTG Mean(Std/Min/Max): 5.45(1.06/1.31/6.90)
+Back Steps: 10, %Solved: 17.12, avgSolveSteps: 5.19, CTG Mean(Std/Min/Max): 5.53(0.97/1.94/7.22)
+Back Steps: 11, %Solved: 15.92, avgSolveSteps: 5.25, CTG Mean(Std/Min/Max): 5.67(0.93/1.31/7.00)
+Back Steps: 12, %Solved: 13.21, avgSolveSteps: 5.32, CTG Mean(Std/Min/Max): 5.75(0.85/2.04/7.25)
+Back Steps: 13, %Solved: 8.41, avgSolveSteps: 5.54, CTG Mean(Std/Min/Max): 5.82(0.74/1.25/7.07)
+Back Steps: 14, %Solved: 7.81, avgSolveSteps: 5.92, CTG Mean(Std/Min/Max): 5.79(0.88/1.34/6.97)
+Back Steps: 15, %Solved: 5.71, avgSolveSteps: 5.21, CTG Mean(Std/Min/Max): 5.95(0.66/1.32/7.02)
+Back Steps: 16, %Solved: 4.50, avgSolveSteps: 5.87, CTG Mean(Std/Min/Max): 5.94(0.68/2.12/7.31)
+Back Steps: 17, %Solved: 3.00, avgSolveSteps: 5.50, CTG Mean(Std/Min/Max): 5.95(0.63/1.31/7.07)
+Back Steps: 18, %Solved: 1.20, avgSolveSteps: 6.00, CTG Mean(Std/Min/Max): 5.98(0.61/3.24/6.92)
+Back Steps: 19, %Solved: 4.50, avgSolveSteps: 5.13, CTG Mean(Std/Min/Max): 6.02(0.52/4.17/7.16)
+Back Steps: 20, %Solved: 1.80, avgSolveSteps: 6.67, CTG Mean(Std/Min/Max): 5.97(0.58/4.06/7.02)
+Test time: 7.77
+Last loss was 0.064850
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.90)
+12.50% (Total time: 5.18)
+23.44% (Total time: 6.46)
+34.38% (Total time: 7.75)
+45.31% (Total time: 9.04)
+56.25% (Total time: 10.32)
+67.19% (Total time: 11.49)
+78.12% (Total time: 12.18)
+89.06% (Total time: 12.61)
+100.00% (Total time: 12.79)
+Cost-to-go (mean/min/max): 4.70/0.00/7.57
+Training model for update number 11 for 50 iterations
+Solving 10000 states with GBFS with 12 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.11(0.00/0.11/0.11)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.39(0.02/1.37/1.41)
+Back Steps: 2, %Solved: 94.16, avgSolveSteps: 1.82, CTG Mean(Std/Min/Max): 1.98(0.58/0.11/2.37)
+Back Steps: 3, %Solved: 86.23, avgSolveSteps: 2.60, CTG Mean(Std/Min/Max): 2.91(0.84/1.37/3.76)
+Back Steps: 4, %Solved: 74.40, avgSolveSteps: 3.25, CTG Mean(Std/Min/Max): 3.47(1.17/0.11/5.23)
+Back Steps: 5, %Solved: 65.87, avgSolveSteps: 3.83, CTG Mean(Std/Min/Max): 4.28(1.36/1.37/6.80)
+Back Steps: 6, %Solved: 48.73, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 4.61(1.35/0.11/7.00)
+Back Steps: 7, %Solved: 42.04, avgSolveSteps: 4.44, CTG Mean(Std/Min/Max): 5.17(1.16/1.37/7.02)
+Back Steps: 8, %Solved: 30.48, avgSolveSteps: 4.53, CTG Mean(Std/Min/Max): 5.28(1.11/0.11/7.31)
+Back Steps: 9, %Solved: 24.62, avgSolveSteps: 4.59, CTG Mean(Std/Min/Max): 5.56(1.09/1.37/7.07)
+Back Steps: 10, %Solved: 18.62, avgSolveSteps: 4.81, CTG Mean(Std/Min/Max): 5.59(0.99/2.05/7.17)
+Back Steps: 11, %Solved: 14.56, avgSolveSteps: 4.92, CTG Mean(Std/Min/Max): 5.77(0.88/1.37/7.14)
+Back Steps: 12, %Solved: 12.31, avgSolveSteps: 5.02, CTG Mean(Std/Min/Max): 5.79(0.91/2.13/7.17)
+Back Steps: 13, %Solved: 9.76, avgSolveSteps: 5.34, CTG Mean(Std/Min/Max): 5.91(0.76/3.22/7.28)
+Back Steps: 14, %Solved: 3.90, avgSolveSteps: 6.15, CTG Mean(Std/Min/Max): 6.06(0.69/2.12/7.13)
+Back Steps: 15, %Solved: 5.11, avgSolveSteps: 5.65, CTG Mean(Std/Min/Max): 6.01(0.74/1.38/7.39)
+Back Steps: 16, %Solved: 4.20, avgSolveSteps: 5.71, CTG Mean(Std/Min/Max): 6.02(0.71/2.04/7.23)
+Back Steps: 17, %Solved: 3.15, avgSolveSteps: 5.29, CTG Mean(Std/Min/Max): 6.08(0.64/3.17/7.24)
+Back Steps: 18, %Solved: 3.00, avgSolveSteps: 5.00, CTG Mean(Std/Min/Max): 6.06(0.62/4.00/7.10)
+Back Steps: 19, %Solved: 3.00, avgSolveSteps: 6.20, CTG Mean(Std/Min/Max): 6.03(0.60/3.24/7.06)
+Back Steps: 20, %Solved: 1.80, avgSolveSteps: 4.33, CTG Mean(Std/Min/Max): 6.07(0.62/2.19/7.30)
+Test time: 7.79
+Last loss was 0.062958
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.84)
+12.50% (Total time: 5.10)
+23.44% (Total time: 6.41)
+34.38% (Total time: 7.70)
+45.31% (Total time: 8.98)
+56.25% (Total time: 10.24)
+67.19% (Total time: 11.40)
+78.12% (Total time: 12.10)
+89.06% (Total time: 12.52)
+100.00% (Total time: 12.70)
+Cost-to-go (mean/min/max): 4.69/0.00/7.60
+Training model for update number 11 for 50 iterations
+Itr: 1500, lr: 9.99E-04, loss: 5.67E-02, targ_ctg: 4.72, nnet_ctg: 4.74, Time: 0.07
+Solving 10000 states with GBFS with 12 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.29(0.00/0.29/0.29)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.37(0.03/1.32/1.42)
+Back Steps: 2, %Solved: 93.56, avgSolveSteps: 1.81, CTG Mean(Std/Min/Max): 1.95(0.53/0.29/2.30)
+Back Steps: 3, %Solved: 82.63, avgSolveSteps: 2.71, CTG Mean(Std/Min/Max): 2.98(0.76/1.32/3.74)
+Back Steps: 4, %Solved: 73.65, avgSolveSteps: 3.37, CTG Mean(Std/Min/Max): 3.51(1.11/0.29/4.93)
+Back Steps: 5, %Solved: 65.87, avgSolveSteps: 3.88, CTG Mean(Std/Min/Max): 4.32(1.27/1.32/6.62)
+Back Steps: 6, %Solved: 53.52, avgSolveSteps: 3.94, CTG Mean(Std/Min/Max): 4.54(1.33/0.29/6.95)
+Back Steps: 7, %Solved: 41.74, avgSolveSteps: 4.99, CTG Mean(Std/Min/Max): 5.06(1.20/1.35/6.90)
+Back Steps: 8, %Solved: 27.93, avgSolveSteps: 4.54, CTG Mean(Std/Min/Max): 5.24(1.18/0.29/7.04)
+Back Steps: 9, %Solved: 21.02, avgSolveSteps: 4.91, CTG Mean(Std/Min/Max): 5.62(0.94/1.38/7.16)
+Back Steps: 10, %Solved: 21.92, avgSolveSteps: 4.63, CTG Mean(Std/Min/Max): 5.49(1.06/2.00/7.08)
+Back Steps: 11, %Solved: 14.71, avgSolveSteps: 5.02, CTG Mean(Std/Min/Max): 5.75(0.87/1.38/7.34)
+Back Steps: 12, %Solved: 13.51, avgSolveSteps: 4.89, CTG Mean(Std/Min/Max): 5.69(0.98/2.02/7.02)
+Back Steps: 13, %Solved: 10.21, avgSolveSteps: 5.00, CTG Mean(Std/Min/Max): 5.89(0.83/1.35/7.22)
+Back Steps: 14, %Solved: 7.51, avgSolveSteps: 5.60, CTG Mean(Std/Min/Max): 5.90(0.72/2.04/7.34)
+Back Steps: 15, %Solved: 5.86, avgSolveSteps: 5.41, CTG Mean(Std/Min/Max): 5.99(0.74/1.39/7.31)
+Back Steps: 16, %Solved: 5.11, avgSolveSteps: 4.71, CTG Mean(Std/Min/Max): 5.90(0.78/2.00/7.19)
+Back Steps: 17, %Solved: 5.26, avgSolveSteps: 6.14, CTG Mean(Std/Min/Max): 5.99(0.72/2.07/7.17)
+Back Steps: 18, %Solved: 3.30, avgSolveSteps: 4.91, CTG Mean(Std/Min/Max): 5.94(0.74/2.19/7.06)
+Back Steps: 19, %Solved: 1.80, avgSolveSteps: 6.00, CTG Mean(Std/Min/Max): 6.07(0.64/1.38/7.25)
+Back Steps: 20, %Solved: 1.20, avgSolveSteps: 5.50, CTG Mean(Std/Min/Max): 6.09(0.63/2.09/7.29)
+Test time: 7.83
+Last loss was 0.052930
+Updating target network
+Updating cost-to-go with value iteration
+1.56% (Total time: 3.83)
+12.50% (Total time: 5.09)
+23.44% (Total time: 6.39)
+34.38% (Total time: 7.69)
+45.31% (Total time: 8.94)
+56.25% (Total time: 10.22)
+67.19% (Total time: 11.39)
+78.12% (Total time: 12.10)
+89.06% (Total time: 12.51)
+100.00% (Total time: 12.70)
+Cost-to-go (mean/min/max): 4.86/0.00/7.96
+Training model for update number 12 for 50 iterations

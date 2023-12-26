@@ -1,0 +1,33 @@
+device: cuda:0, devices: [0], on_gpu: True
+Itr: 0, Added to OPEN - Min/Max Heur(PathCost): 5.58(1.00)/6.93(1.00) 
+Times - pop: 0.00, expand: 0.00, check: 0.00, heur: 0.00, add: 0.00, itr: 0.00
+
+Itr: 1, Added to OPEN - Min/Max Heur(PathCost): 4.06(2.00)/7.23(2.00) 
+Times - pop: 0.00, expand: 0.00, check: 0.00, heur: 0.00, add: 0.00, itr: 0.00
+
+Itr: 2, Added to OPEN - Min/Max Heur(PathCost): 3.22(3.00)/7.38(3.00) 
+Times - pop: 0.00, expand: 0.01, check: 0.00, heur: 0.00, add: 0.00, itr: 0.01
+
+Itr: 3, Added to OPEN - Min/Max Heur(PathCost): 2.08(4.00)/7.59(4.00) 
+Times - pop: 0.00, expand: 0.08, check: 0.02, heur: 0.03, add: 0.00, itr: 0.13
+
+Itr: 4, Added to OPEN - Min/Max Heur(PathCost): 1.32(5.00)/7.62(5.00) 
+Times - pop: 0.00, expand: 0.51, check: 0.19, heur: 0.17, add: 0.01, itr: 0.88
+
+Itr: 5, Added to OPEN - Min/Max Heur(PathCost): 0.29(6.00)/7.23(6.00) 
+Times - pop: 0.01, expand: 0.80, check: 0.28, heur: 0.26, add: 0.02, itr: 1.37
+
+Itr: 6, Added to OPEN - Min/Max Heur(PathCost): 1.32(7.00)/7.16(7.00) 
+Times - pop: 0.01, expand: 0.82, check: 0.27, heur: 0.26, add: 0.03, itr: 1.39
+
+Itr: 7, Added to OPEN - Min/Max Heur(PathCost): 0.29(8.00)/7.04(8.00) 
+Times - pop: 0.01, expand: 0.94, check: 0.28, heur: 0.26, add: 0.03, itr: 1.51
+
+Itr: 8, Added to OPEN - Min/Max Heur(PathCost): 0.29(9.00)/6.93(8.00) 
+Times - pop: 0.01, expand: 0.78, check: 0.27, heur: 0.26, add: 0.02, itr: 1.35
+
+Itr: 9, Added to OPEN - Min/Max Heur(PathCost): 0.29(10.00)/6.40(8.00) 
+Times - pop: 0.01, expand: 0.82, check: 0.29, heur: 0.26, add: 0.02, itr: 1.40
+
+Times - pop: 0.07, expand: 4.76, check: 1.60, heur: 1.49, add: 0.13, itr: 8.05, num_itrs: 10
+State: 0, SolnCost: 9.00, # Moves: 9, # Nodes Gen: 691,092, Time: 8.11

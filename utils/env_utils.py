@@ -3,7 +3,7 @@ import math
 from environments.environment_abstract import Environment
 
 
-def get_environment(env_name: str) -> Environment:
+def get_environment(env_name: str, **kwargs) -> Environment:
     env_name = env_name.lower()
     puzzle_n_regex = re.search("puzzle(\d+)", env_name)
     env: Environment
@@ -22,6 +22,12 @@ def get_environment(env_name: str) -> Environment:
     elif env_name == 'sokoban':
         from environments.sokoban import Sokoban
         env = Sokoban(10, 4)
+    elif env_name == 'cube2x2':
+        from environments.cube2x2 import Cube2x2
+        
+        df_info_path = kwargs.get('df_info_path', '/mnt/hdd/santa/data/puzzle_info.csv')
+        df_puzzles_path = kwargs.get('df_puzzles_path', '/mnt/hdd/santa/data/puzzles.csv')
+        env = Cube2x2(df_info_path, df_puzzles_path)
     else:
         raise ValueError('No known environment %s' % env_name)
 
