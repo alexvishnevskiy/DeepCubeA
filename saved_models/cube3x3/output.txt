@@ -1,0 +1,432 @@
+device: cuda:0, devices: [0], on_gpu: True
+Updating cost-to-go with value iteration
+0.89% (Total time: 5.29)
+11.61% (Total time: 5.66)
+22.32% (Total time: 8.98)
+33.93% (Total time: 12.52)
+44.64% (Total time: 15.60)
+55.36% (Total time: 16.13)
+66.96% (Total time: 19.48)
+77.68% (Total time: 22.82)
+88.39% (Total time: 23.42)
+100.00% (Total time: 24.08)
+Cost-to-go (mean/min/max): 0.93/0.00/1.00
+Training model for update number 0 for 1000 iterations
+Itr: 0, lr: 1.00E-03, loss: 1.46E+00, targ_ctg: 0.94, nnet_ctg: 0.03, Time: 0.48
+Itr: 100, lr: 1.00E-03, loss: 4.62E-03, targ_ctg: 0.94, nnet_ctg: 0.92, Time: 0.73
+Itr: 200, lr: 1.00E-03, loss: 4.92E-03, targ_ctg: 0.94, nnet_ctg: 0.94, Time: 0.72
+Itr: 300, lr: 1.00E-03, loss: 2.04E-03, targ_ctg: 0.92, nnet_ctg: 0.91, Time: 0.72
+Itr: 400, lr: 1.00E-03, loss: 3.07E-03, targ_ctg: 0.93, nnet_ctg: 0.93, Time: 0.72
+Itr: 500, lr: 1.00E-03, loss: 1.14E-03, targ_ctg: 0.92, nnet_ctg: 0.92, Time: 0.72
+Itr: 600, lr: 1.00E-03, loss: 1.03E-03, targ_ctg: 0.93, nnet_ctg: 0.93, Time: 0.72
+Itr: 700, lr: 1.00E-03, loss: 9.62E-04, targ_ctg: 0.93, nnet_ctg: 0.92, Time: 0.72
+Itr: 800, lr: 9.99E-04, loss: 1.97E-03, targ_ctg: 0.93, nnet_ctg: 0.94, Time: 0.72
+Itr: 900, lr: 9.99E-04, loss: 1.71E-03, targ_ctg: 0.94, nnet_ctg: 0.93, Time: 0.72
+Solving 10000 states with GBFS with 1 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): -0.02(0.00/-0.02/-0.02)
+Back Steps: 1, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.96(0.04/0.83/0.99)
+Back Steps: 2, %Solved: 8.98, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.87(0.28/-0.02/1.01)
+Back Steps: 3, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.96(0.04/0.83/1.04)
+Back Steps: 4, %Solved: 0.45, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.96(0.08/-0.02/1.06)
+Back Steps: 5, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.97(0.03/0.83/1.07)
+Back Steps: 6, %Solved: 0.15, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.97(0.05/-0.02/1.07)
+Back Steps: 7, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.97(0.03/0.86/1.05)
+Back Steps: 8, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.97(0.03/0.87/1.06)
+Back Steps: 9, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.97(0.03/0.87/1.09)
+Back Steps: 10, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.97(0.02/0.88/1.05)
+Back Steps: 11, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.97(0.02/0.90/1.06)
+Back Steps: 12, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.97(0.02/0.90/1.04)
+Back Steps: 13, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.97(0.02/0.88/1.07)
+Back Steps: 14, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.97(0.02/0.91/1.05)
+Back Steps: 15, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.97(0.02/0.91/1.05)
+Test time: 2.12
+Last loss was 0.000706
+Updating target network
+Updating cost-to-go with value iteration
+0.89% (Total time: 5.69)
+11.61% (Total time: 9.22)
+22.32% (Total time: 12.74)
+33.93% (Total time: 16.51)
+44.64% (Total time: 20.02)
+55.36% (Total time: 23.60)
+66.96% (Total time: 27.38)
+77.68% (Total time: 30.84)
+88.39% (Total time: 33.47)
+100.00% (Total time: 34.57)
+Cost-to-go (mean/min/max): 1.73/0.00/1.99
+Training model for update number 1 for 1000 iterations
+Itr: 1000, lr: 9.99E-04, loss: 7.58E-01, targ_ctg: 1.73, nnet_ctg: 0.92, Time: 0.07
+Itr: 1100, lr: 9.99E-04, loss: 1.17E-03, targ_ctg: 1.74, nnet_ctg: 1.73, Time: 0.73
+Itr: 1200, lr: 9.99E-04, loss: 4.60E-03, targ_ctg: 1.74, nnet_ctg: 1.70, Time: 0.73
+Itr: 1300, lr: 9.99E-04, loss: 2.33E-03, targ_ctg: 1.73, nnet_ctg: 1.70, Time: 0.73
+Itr: 1400, lr: 9.99E-04, loss: 9.35E-03, targ_ctg: 1.73, nnet_ctg: 1.69, Time: 0.73
+Itr: 1500, lr: 9.99E-04, loss: 1.40E-03, targ_ctg: 1.76, nnet_ctg: 1.74, Time: 0.73
+Itr: 1600, lr: 9.99E-04, loss: 6.37E-04, targ_ctg: 1.73, nnet_ctg: 1.74, Time: 0.73
+Itr: 1700, lr: 9.99E-04, loss: 8.91E-04, targ_ctg: 1.70, nnet_ctg: 1.71, Time: 0.73
+Itr: 1800, lr: 9.99E-04, loss: 1.25E-03, targ_ctg: 1.74, nnet_ctg: 1.72, Time: 0.73
+Itr: 1900, lr: 9.99E-04, loss: 1.51E-03, targ_ctg: 1.74, nnet_ctg: 1.74, Time: 0.73
+Solving 10000 states with GBFS with 2 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): -0.20(0.00/-0.20/-0.20)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 0.91(0.07/0.80/0.99)
+Back Steps: 2, %Solved: 4.19, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.80(0.42/-0.20/1.97)
+Back Steps: 3, %Solved: 12.28, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.78(0.33/0.80/1.98)
+Back Steps: 4, %Solved: 0.90, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.89(0.20/-0.20/1.98)
+Back Steps: 5, %Solved: 1.20, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.91(0.12/0.80/1.97)
+Back Steps: 6, %Solved: 0.30, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.92(0.12/-0.20/1.98)
+Back Steps: 7, %Solved: 0.45, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.92(0.08/0.80/1.99)
+Back Steps: 8, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.93(0.02/1.83/1.98)
+Back Steps: 9, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.93(0.03/1.43/1.98)
+Back Steps: 10, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.93(0.02/1.85/1.98)
+Back Steps: 11, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.93(0.02/1.82/1.98)
+Back Steps: 12, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.93(0.02/1.81/1.99)
+Back Steps: 13, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.94(0.01/1.87/1.98)
+Back Steps: 14, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.94(0.01/1.89/1.98)
+Back Steps: 15, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 1.94(0.01/1.89/1.97)
+Test time: 3.51
+Last loss was 0.000888
+Updating target network
+Updating cost-to-go with value iteration
+0.89% (Total time: 5.69)
+11.61% (Total time: 9.26)
+22.32% (Total time: 12.83)
+33.93% (Total time: 16.68)
+44.64% (Total time: 20.18)
+55.36% (Total time: 23.78)
+66.96% (Total time: 27.58)
+77.68% (Total time: 31.13)
+88.39% (Total time: 33.70)
+100.00% (Total time: 34.88)
+Cost-to-go (mean/min/max): 2.50/0.00/2.95
+Training model for update number 2 for 1000 iterations
+Itr: 2000, lr: 9.99E-04, loss: 7.00E-01, targ_ctg: 2.45, nnet_ctg: 1.71, Time: 0.09
+Itr: 2100, lr: 9.99E-04, loss: 1.34E-02, targ_ctg: 2.53, nnet_ctg: 2.49, Time: 0.73
+Itr: 2200, lr: 9.98E-04, loss: 1.57E-02, targ_ctg: 2.49, nnet_ctg: 2.43, Time: 0.73
+Itr: 2300, lr: 9.98E-04, loss: 1.29E-02, targ_ctg: 2.51, nnet_ctg: 2.45, Time: 0.73
+Itr: 2400, lr: 9.98E-04, loss: 2.45E-02, targ_ctg: 2.46, nnet_ctg: 2.60, Time: 0.73
+Itr: 2500, lr: 9.98E-04, loss: 7.63E-03, targ_ctg: 2.50, nnet_ctg: 2.43, Time: 0.73
+Itr: 2600, lr: 9.98E-04, loss: 1.34E-02, targ_ctg: 2.49, nnet_ctg: 2.49, Time: 0.73
+Itr: 2700, lr: 9.98E-04, loss: 2.83E-03, targ_ctg: 2.49, nnet_ctg: 2.51, Time: 0.73
+Itr: 2800, lr: 9.98E-04, loss: 1.90E-03, targ_ctg: 2.52, nnet_ctg: 2.53, Time: 0.73
+Itr: 2900, lr: 9.98E-04, loss: 1.10E-02, targ_ctg: 2.49, nnet_ctg: 2.52, Time: 0.73
+Solving 10000 states with GBFS with 3 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): -0.11(0.00/-0.11/-0.11)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 0.97(0.01/0.95/0.99)
+Back Steps: 2, %Solved: 100.00, avgSolveSteps: 1.89, CTG Mean(Std/Min/Max): 1.77(0.47/-0.11/2.12)
+Back Steps: 3, %Solved: 10.93, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 2.62(0.58/0.95/2.91)
+Back Steps: 4, %Solved: 19.76, avgSolveSteps: 1.94, CTG Mean(Std/Min/Max): 2.65(0.45/-0.11/2.93)
+Back Steps: 5, %Solved: 0.90, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 2.84(0.19/0.97/2.93)
+Back Steps: 6, %Solved: 3.90, avgSolveSteps: 1.92, CTG Mean(Std/Min/Max): 2.83(0.23/-0.11/2.93)
+Back Steps: 7, %Solved: 0.30, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 2.88(0.11/0.98/2.93)
+Back Steps: 8, %Solved: 0.60, avgSolveSteps: 2.00, CTG Mean(Std/Min/Max): 2.88(0.08/1.81/2.94)
+Back Steps: 9, %Solved: 0.15, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 2.89(0.08/0.98/2.93)
+Back Steps: 10, %Solved: 0.15, avgSolveSteps: 2.00, CTG Mean(Std/Min/Max): 2.89(0.06/1.90/2.93)
+Back Steps: 11, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 2.90(0.02/2.76/2.93)
+Back Steps: 12, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 2.90(0.01/2.81/2.93)
+Back Steps: 13, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 2.90(0.01/2.82/2.94)
+Back Steps: 14, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 2.90(0.01/2.85/2.93)
+Back Steps: 15, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 2.90(0.01/2.83/2.94)
+Test time: 4.78
+Last loss was 0.001780
+Updating target network
+Updating cost-to-go with value iteration
+0.89% (Total time: 5.66)
+11.61% (Total time: 9.25)
+22.32% (Total time: 12.78)
+33.93% (Total time: 16.65)
+44.64% (Total time: 20.22)
+55.36% (Total time: 23.76)
+66.96% (Total time: 27.63)
+77.68% (Total time: 31.15)
+88.39% (Total time: 33.73)
+100.00% (Total time: 34.91)
+Cost-to-go (mean/min/max): 3.19/0.00/3.91
+Training model for update number 3 for 1000 iterations
+Itr: 3000, lr: 9.98E-04, loss: 6.63E-01, targ_ctg: 3.21, nnet_ctg: 2.50, Time: 0.08
+Itr: 3100, lr: 9.98E-04, loss: 1.90E-02, targ_ctg: 3.15, nnet_ctg: 3.25, Time: 0.73
+Itr: 3200, lr: 9.98E-04, loss: 8.90E-03, targ_ctg: 3.22, nnet_ctg: 3.21, Time: 0.73
+Itr: 3300, lr: 9.98E-04, loss: 7.11E-03, targ_ctg: 3.16, nnet_ctg: 3.14, Time: 0.73
+Itr: 3400, lr: 9.98E-04, loss: 4.23E-03, targ_ctg: 3.14, nnet_ctg: 3.13, Time: 0.73
+Itr: 3500, lr: 9.98E-04, loss: 5.41E-03, targ_ctg: 3.17, nnet_ctg: 3.22, Time: 0.73
+Itr: 3600, lr: 9.97E-04, loss: 5.83E-03, targ_ctg: 3.21, nnet_ctg: 3.20, Time: 0.73
+Itr: 3700, lr: 9.97E-04, loss: 4.17E-03, targ_ctg: 3.23, nnet_ctg: 3.25, Time: 0.73
+Itr: 3800, lr: 9.97E-04, loss: 4.81E-03, targ_ctg: 3.20, nnet_ctg: 3.22, Time: 0.73
+Itr: 3900, lr: 9.97E-04, loss: 2.67E-03, targ_ctg: 3.14, nnet_ctg: 3.11, Time: 0.73
+Solving 10000 states with GBFS with 4 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.16(0.00/0.16/0.16)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.10(0.03/1.01/1.14)
+Back Steps: 2, %Solved: 100.00, avgSolveSteps: 1.93, CTG Mean(Std/Min/Max): 1.90(0.35/0.16/2.14)
+Back Steps: 3, %Solved: 99.55, avgSolveSteps: 2.73, CTG Mean(Std/Min/Max): 2.63(0.60/1.01/3.46)
+Back Steps: 4, %Solved: 19.31, avgSolveSteps: 1.86, CTG Mean(Std/Min/Max): 3.39(0.80/0.16/3.88)
+Back Steps: 5, %Solved: 23.27, avgSolveSteps: 2.83, CTG Mean(Std/Min/Max): 3.54(0.53/1.01/3.89)
+Back Steps: 6, %Solved: 4.95, avgSolveSteps: 1.94, CTG Mean(Std/Min/Max): 3.71(0.43/0.16/3.90)
+Back Steps: 7, %Solved: 6.91, avgSolveSteps: 2.96, CTG Mean(Std/Min/Max): 3.75(0.29/1.09/3.90)
+Back Steps: 8, %Solved: 0.90, avgSolveSteps: 2.00, CTG Mean(Std/Min/Max): 3.82(0.20/1.91/3.90)
+Back Steps: 9, %Solved: 1.95, avgSolveSteps: 3.00, CTG Mean(Std/Min/Max): 3.83(0.16/2.73/3.90)
+Back Steps: 10, %Solved: 0.30, avgSolveSteps: 2.00, CTG Mean(Std/Min/Max): 3.85(0.11/1.96/3.89)
+Back Steps: 11, %Solved: 0.45, avgSolveSteps: 2.33, CTG Mean(Std/Min/Max): 3.85(0.13/1.03/3.93)
+Back Steps: 12, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 3.86(0.05/2.77/3.91)
+Back Steps: 13, %Solved: 0.30, avgSolveSteps: 3.00, CTG Mean(Std/Min/Max): 3.85(0.05/2.89/3.90)
+Back Steps: 14, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 3.86(0.05/2.93/3.89)
+Back Steps: 15, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 3.86(0.01/3.78/3.89)
+Test time: 5.91
+Last loss was 0.002944
+Updating target network
+Updating cost-to-go with value iteration
+0.89% (Total time: 5.61)
+11.61% (Total time: 9.22)
+22.32% (Total time: 12.76)
+33.93% (Total time: 16.61)
+44.64% (Total time: 20.15)
+55.36% (Total time: 23.71)
+66.96% (Total time: 27.60)
+77.68% (Total time: 31.12)
+88.39% (Total time: 33.71)
+100.00% (Total time: 34.90)
+Cost-to-go (mean/min/max): 3.81/0.00/4.88
+Training model for update number 4 for 1000 iterations
+Itr: 4000, lr: 9.97E-04, loss: 5.68E-01, targ_ctg: 3.78, nnet_ctg: 3.17, Time: 0.07
+Itr: 4100, lr: 9.97E-04, loss: 2.42E-02, targ_ctg: 3.78, nnet_ctg: 3.83, Time: 0.73
+Itr: 4200, lr: 9.97E-04, loss: 1.09E-02, targ_ctg: 3.81, nnet_ctg: 3.81, Time: 0.73
+Itr: 4300, lr: 9.97E-04, loss: 1.59E-02, targ_ctg: 3.88, nnet_ctg: 3.89, Time: 0.73
+Itr: 4400, lr: 9.97E-04, loss: 8.99E-03, targ_ctg: 3.81, nnet_ctg: 3.84, Time: 0.73
+Itr: 4500, lr: 9.97E-04, loss: 1.19E-02, targ_ctg: 3.84, nnet_ctg: 3.82, Time: 0.73
+Itr: 4600, lr: 9.97E-04, loss: 2.14E-02, targ_ctg: 3.89, nnet_ctg: 3.83, Time: 0.73
+Itr: 4700, lr: 9.97E-04, loss: 1.99E-02, targ_ctg: 3.81, nnet_ctg: 3.84, Time: 0.73
+Itr: 4800, lr: 9.97E-04, loss: 6.39E-03, targ_ctg: 3.80, nnet_ctg: 3.81, Time: 0.73
+Itr: 4900, lr: 9.97E-04, loss: 1.10E-02, targ_ctg: 3.74, nnet_ctg: 3.71, Time: 0.73
+Solving 10000 states with GBFS with 5 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.18(0.00/0.18/0.18)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.21(0.04/1.13/1.26)
+Back Steps: 2, %Solved: 100.00, avgSolveSteps: 1.88, CTG Mean(Std/Min/Max): 2.02(0.46/0.18/2.22)
+Back Steps: 3, %Solved: 100.00, avgSolveSteps: 2.73, CTG Mean(Std/Min/Max): 2.79(0.62/1.13/3.43)
+Back Steps: 4, %Solved: 97.60, avgSolveSteps: 3.59, CTG Mean(Std/Min/Max): 3.60(0.81/0.18/4.67)
+Back Steps: 5, %Solved: 26.88, avgSolveSteps: 2.81, CTG Mean(Std/Min/Max): 4.19(0.90/1.13/4.92)
+Back Steps: 6, %Solved: 27.93, avgSolveSteps: 3.74, CTG Mean(Std/Min/Max): 4.46(0.62/2.02/4.92)
+Back Steps: 7, %Solved: 5.56, avgSolveSteps: 3.00, CTG Mean(Std/Min/Max): 4.68(0.46/2.95/4.93)
+Back Steps: 8, %Solved: 7.96, avgSolveSteps: 3.74, CTG Mean(Std/Min/Max): 4.74(0.38/2.06/4.95)
+Back Steps: 9, %Solved: 1.35, avgSolveSteps: 3.00, CTG Mean(Std/Min/Max): 4.80(0.27/2.99/4.95)
+Back Steps: 10, %Solved: 3.00, avgSolveSteps: 3.50, CTG Mean(Std/Min/Max): 4.80(0.30/2.04/4.95)
+Back Steps: 11, %Solved: 0.75, avgSolveSteps: 3.00, CTG Mean(Std/Min/Max): 4.84(0.19/3.03/4.96)
+Back Steps: 12, %Solved: 0.45, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 4.86(0.10/3.80/4.95)
+Back Steps: 13, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 4.86(0.09/2.96/4.93)
+Back Steps: 14, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 4.87(0.02/4.70/5.01)
+Back Steps: 15, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 4.87(0.08/3.40/4.93)
+Test time: 7.06
+Last loss was 0.009998
+Updating target network
+Updating cost-to-go with value iteration
+0.89% (Total time: 5.67)
+11.61% (Total time: 9.26)
+22.32% (Total time: 12.81)
+33.93% (Total time: 16.68)
+44.64% (Total time: 20.22)
+55.36% (Total time: 23.80)
+66.96% (Total time: 27.65)
+77.68% (Total time: 31.16)
+88.39% (Total time: 33.93)
+100.00% (Total time: 35.10)
+Cost-to-go (mean/min/max): 4.40/0.00/5.90
+Training model for update number 5 for 1000 iterations
+Itr: 5000, lr: 9.97E-04, loss: 5.64E-01, targ_ctg: 4.52, nnet_ctg: 3.93, Time: 0.08
+Itr: 5100, lr: 9.96E-04, loss: 2.17E-02, targ_ctg: 4.50, nnet_ctg: 4.48, Time: 0.73
+Itr: 5200, lr: 9.96E-04, loss: 2.94E-02, targ_ctg: 4.43, nnet_ctg: 4.41, Time: 0.73
+Itr: 5300, lr: 9.96E-04, loss: 2.09E-02, targ_ctg: 4.50, nnet_ctg: 4.46, Time: 0.73
+Itr: 5400, lr: 9.96E-04, loss: 2.18E-02, targ_ctg: 4.35, nnet_ctg: 4.35, Time: 0.73
+Itr: 5500, lr: 9.96E-04, loss: 2.40E-02, targ_ctg: 4.37, nnet_ctg: 4.30, Time: 0.73
+Itr: 5600, lr: 9.96E-04, loss: 2.05E-02, targ_ctg: 4.50, nnet_ctg: 4.51, Time: 0.74
+Itr: 5700, lr: 9.96E-04, loss: 1.88E-02, targ_ctg: 4.40, nnet_ctg: 4.36, Time: 0.73
+Itr: 5800, lr: 9.96E-04, loss: 1.72E-02, targ_ctg: 4.44, nnet_ctg: 4.44, Time: 0.73
+Itr: 5900, lr: 9.96E-04, loss: 1.48E-02, targ_ctg: 4.46, nnet_ctg: 4.44, Time: 0.73
+Solving 10000 states with GBFS with 6 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.04(0.00/0.04/0.04)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.19(0.02/1.15/1.22)
+Back Steps: 2, %Solved: 100.00, avgSolveSteps: 1.87, CTG Mean(Std/Min/Max): 2.03(0.53/0.04/2.29)
+Back Steps: 3, %Solved: 100.00, avgSolveSteps: 2.76, CTG Mean(Std/Min/Max): 2.85(0.62/1.15/3.70)
+Back Steps: 4, %Solved: 98.05, avgSolveSteps: 3.53, CTG Mean(Std/Min/Max): 3.60(0.87/0.04/4.95)
+Back Steps: 5, %Solved: 93.39, avgSolveSteps: 4.41, CTG Mean(Std/Min/Max): 4.42(0.96/1.15/5.68)
+Back Steps: 6, %Solved: 29.13, avgSolveSteps: 3.70, CTG Mean(Std/Min/Max): 4.95(0.94/0.04/5.86)
+Back Steps: 7, %Solved: 37.69, avgSolveSteps: 4.67, CTG Mean(Std/Min/Max): 5.20(0.72/2.93/5.87)
+Back Steps: 8, %Solved: 8.71, avgSolveSteps: 3.79, CTG Mean(Std/Min/Max): 5.48(0.62/0.04/5.87)
+Back Steps: 9, %Solved: 16.37, avgSolveSteps: 4.72, CTG Mean(Std/Min/Max): 5.51(0.53/3.03/5.86)
+Back Steps: 10, %Solved: 2.25, avgSolveSteps: 3.73, CTG Mean(Std/Min/Max): 5.68(0.37/2.16/5.86)
+Back Steps: 11, %Solved: 2.10, avgSolveSteps: 4.57, CTG Mean(Std/Min/Max): 5.72(0.30/3.01/5.87)
+Back Steps: 12, %Solved: 0.90, avgSolveSteps: 4.00, CTG Mean(Std/Min/Max): 5.75(0.24/3.98/5.87)
+Back Steps: 13, %Solved: 1.05, avgSolveSteps: 4.71, CTG Mean(Std/Min/Max): 5.78(0.18/3.01/5.86)
+Back Steps: 14, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 5.80(0.09/4.81/5.86)
+Back Steps: 15, %Solved: 0.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 5.80(0.11/4.91/5.87)
+Test time: 7.92
+Last loss was 0.019726
+Updating target network
+Updating cost-to-go with value iteration
+0.89% (Total time: 5.62)
+11.61% (Total time: 9.22)
+22.32% (Total time: 12.77)
+33.93% (Total time: 16.65)
+44.64% (Total time: 20.20)
+55.36% (Total time: 23.74)
+66.96% (Total time: 27.64)
+77.68% (Total time: 31.16)
+88.39% (Total time: 33.76)
+100.00% (Total time: 34.93)
+Cost-to-go (mean/min/max): 4.82/0.00/6.84
+Training model for update number 6 for 1000 iterations
+Itr: 6000, lr: 9.96E-04, loss: 4.08E-01, targ_ctg: 4.74, nnet_ctg: 4.29, Time: 0.08
+Itr: 6100, lr: 9.96E-04, loss: 3.55E-02, targ_ctg: 4.76, nnet_ctg: 4.73, Time: 0.73
+Itr: 6200, lr: 9.96E-04, loss: 3.15E-02, targ_ctg: 4.80, nnet_ctg: 4.83, Time: 0.73
+Itr: 6300, lr: 9.96E-04, loss: 3.31E-02, targ_ctg: 4.80, nnet_ctg: 4.78, Time: 0.73
+Itr: 6400, lr: 9.96E-04, loss: 3.44E-02, targ_ctg: 4.74, nnet_ctg: 4.73, Time: 0.73
+Itr: 6500, lr: 9.95E-04, loss: 3.48E-02, targ_ctg: 4.80, nnet_ctg: 4.79, Time: 0.73
+Itr: 6600, lr: 9.95E-04, loss: 2.98E-02, targ_ctg: 4.80, nnet_ctg: 4.80, Time: 0.73
+Itr: 6700, lr: 9.95E-04, loss: 3.01E-02, targ_ctg: 4.72, nnet_ctg: 4.77, Time: 0.73
+Itr: 6800, lr: 9.95E-04, loss: 3.11E-02, targ_ctg: 4.87, nnet_ctg: 4.91, Time: 0.73
+Itr: 6900, lr: 9.95E-04, loss: 3.55E-02, targ_ctg: 4.91, nnet_ctg: 4.97, Time: 0.73
+Solving 10000 states with GBFS with 7 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): 0.12(0.00/0.12/0.12)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.09(0.02/1.05/1.13)
+Back Steps: 2, %Solved: 100.00, avgSolveSteps: 1.91, CTG Mean(Std/Min/Max): 2.03(0.42/0.12/2.19)
+Back Steps: 3, %Solved: 100.00, avgSolveSteps: 2.75, CTG Mean(Std/Min/Max): 2.84(0.66/1.07/3.72)
+Back Steps: 4, %Solved: 99.70, avgSolveSteps: 3.63, CTG Mean(Std/Min/Max): 3.66(0.79/0.12/5.02)
+Back Steps: 5, %Solved: 98.20, avgSolveSteps: 4.48, CTG Mean(Std/Min/Max): 4.49(0.92/1.05/6.12)
+Back Steps: 6, %Solved: 87.84, avgSolveSteps: 5.18, CTG Mean(Std/Min/Max): 5.14(1.08/2.03/6.60)
+Back Steps: 7, %Solved: 42.04, avgSolveSteps: 4.71, CTG Mean(Std/Min/Max): 5.54(0.94/1.05/6.72)
+Back Steps: 8, %Solved: 37.09, avgSolveSteps: 5.47, CTG Mean(Std/Min/Max): 5.87(0.86/2.10/6.72)
+Back Steps: 9, %Solved: 11.11, avgSolveSteps: 4.68, CTG Mean(Std/Min/Max): 6.14(0.70/3.04/6.74)
+Back Steps: 10, %Solved: 11.86, avgSolveSteps: 5.75, CTG Mean(Std/Min/Max): 6.32(0.51/2.16/6.73)
+Back Steps: 11, %Solved: 4.05, avgSolveSteps: 4.85, CTG Mean(Std/Min/Max): 6.42(0.46/2.99/6.72)
+Back Steps: 12, %Solved: 3.75, avgSolveSteps: 5.76, CTG Mean(Std/Min/Max): 6.48(0.38/3.99/6.72)
+Back Steps: 13, %Solved: 1.35, avgSolveSteps: 4.33, CTG Mean(Std/Min/Max): 6.52(0.37/3.08/6.72)
+Back Steps: 14, %Solved: 0.60, avgSolveSteps: 6.00, CTG Mean(Std/Min/Max): 6.58(0.22/4.80/6.71)
+Back Steps: 15, %Solved: 0.60, avgSolveSteps: 5.00, CTG Mean(Std/Min/Max): 6.56(0.26/4.86/6.70)
+Test time: 8.73
+Last loss was 0.025171
+Updating target network
+Updating cost-to-go with value iteration
+0.89% (Total time: 5.71)
+11.61% (Total time: 9.32)
+22.32% (Total time: 12.87)
+33.93% (Total time: 16.78)
+44.64% (Total time: 20.31)
+55.36% (Total time: 23.89)
+66.96% (Total time: 27.78)
+77.68% (Total time: 31.30)
+88.39% (Total time: 33.90)
+100.00% (Total time: 35.09)
+Cost-to-go (mean/min/max): 5.10/0.00/7.68
+Training model for update number 7 for 1000 iterations
+Itr: 7000, lr: 9.95E-04, loss: 2.71E-01, targ_ctg: 5.08, nnet_ctg: 4.76, Time: 0.08
+Itr: 7100, lr: 9.95E-04, loss: 5.26E-02, targ_ctg: 5.16, nnet_ctg: 5.14, Time: 0.73
+Itr: 7200, lr: 9.95E-04, loss: 5.42E-02, targ_ctg: 5.03, nnet_ctg: 4.96, Time: 0.73
+Itr: 7300, lr: 9.95E-04, loss: 5.80E-02, targ_ctg: 5.15, nnet_ctg: 5.21, Time: 0.73
+Itr: 7400, lr: 9.95E-04, loss: 4.85E-02, targ_ctg: 5.18, nnet_ctg: 5.16, Time: 0.73
+Itr: 7500, lr: 9.95E-04, loss: 6.05E-02, targ_ctg: 5.00, nnet_ctg: 5.10, Time: 0.73
+Itr: 7600, lr: 9.95E-04, loss: 5.14E-02, targ_ctg: 5.15, nnet_ctg: 5.08, Time: 0.73
+Itr: 7700, lr: 9.95E-04, loss: 4.74E-02, targ_ctg: 5.07, nnet_ctg: 5.03, Time: 0.73
+Itr: 7800, lr: 9.95E-04, loss: 4.68E-02, targ_ctg: 5.09, nnet_ctg: 5.09, Time: 0.73
+Itr: 7900, lr: 9.94E-04, loss: 4.75E-02, targ_ctg: 5.05, nnet_ctg: 5.01, Time: 0.73
+Solving 10000 states with GBFS with 8 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): -0.17(0.00/-0.17/-0.17)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.06(0.03/1.02/1.11)
+Back Steps: 2, %Solved: 100.00, avgSolveSteps: 1.90, CTG Mean(Std/Min/Max): 1.98(0.51/-0.17/2.18)
+Back Steps: 3, %Solved: 100.00, avgSolveSteps: 2.75, CTG Mean(Std/Min/Max): 2.87(0.69/1.02/3.44)
+Back Steps: 4, %Solved: 99.55, avgSolveSteps: 3.63, CTG Mean(Std/Min/Max): 3.72(0.82/-0.17/5.13)
+Back Steps: 5, %Solved: 95.95, avgSolveSteps: 4.46, CTG Mean(Std/Min/Max): 4.58(1.01/1.02/6.32)
+Back Steps: 6, %Solved: 89.19, avgSolveSteps: 5.17, CTG Mean(Std/Min/Max): 5.28(1.17/2.06/7.25)
+Back Steps: 7, %Solved: 76.28, avgSolveSteps: 5.91, CTG Mean(Std/Min/Max): 5.88(1.11/1.04/7.62)
+Back Steps: 8, %Solved: 38.29, avgSolveSteps: 5.57, CTG Mean(Std/Min/Max): 6.38(1.00/2.07/7.70)
+Back Steps: 9, %Solved: 35.44, avgSolveSteps: 6.29, CTG Mean(Std/Min/Max): 6.66(0.88/3.09/7.73)
+Back Steps: 10, %Solved: 11.71, avgSolveSteps: 5.69, CTG Mean(Std/Min/Max): 6.91(0.75/2.11/7.75)
+Back Steps: 11, %Solved: 12.31, avgSolveSteps: 6.63, CTG Mean(Std/Min/Max): 7.06(0.64/3.15/7.72)
+Back Steps: 12, %Solved: 4.95, avgSolveSteps: 5.52, CTG Mean(Std/Min/Max): 7.19(0.63/2.09/7.73)
+Back Steps: 13, %Solved: 5.86, avgSolveSteps: 6.59, CTG Mean(Std/Min/Max): 7.29(0.51/3.11/7.74)
+Back Steps: 14, %Solved: 1.50, avgSolveSteps: 6.00, CTG Mean(Std/Min/Max): 7.38(0.38/5.39/7.72)
+Back Steps: 15, %Solved: 1.50, avgSolveSteps: 6.20, CTG Mean(Std/Min/Max): 7.42(0.42/3.16/7.75)
+Test time: 9.44
+Last loss was 0.035584
+Updating target network
+Updating cost-to-go with value iteration
+0.89% (Total time: 5.79)
+11.61% (Total time: 9.39)
+22.32% (Total time: 12.98)
+33.93% (Total time: 16.83)
+44.64% (Total time: 20.38)
+55.36% (Total time: 23.97)
+66.96% (Total time: 27.87)
+77.68% (Total time: 31.40)
+88.39% (Total time: 34.00)
+100.00% (Total time: 35.17)
+Cost-to-go (mean/min/max): 5.36/0.00/8.68
+Training model for update number 8 for 1000 iterations
+Itr: 8000, lr: 9.94E-04, loss: 2.10E-01, targ_ctg: 5.27, nnet_ctg: 5.01, Time: 0.08
+Itr: 8100, lr: 9.94E-04, loss: 7.73E-02, targ_ctg: 5.41, nnet_ctg: 5.31, Time: 0.73
+Itr: 8200, lr: 9.94E-04, loss: 6.16E-02, targ_ctg: 5.30, nnet_ctg: 5.33, Time: 0.73
+Itr: 8300, lr: 9.94E-04, loss: 7.23E-02, targ_ctg: 5.24, nnet_ctg: 5.30, Time: 0.74
+Itr: 8400, lr: 9.94E-04, loss: 7.05E-02, targ_ctg: 5.50, nnet_ctg: 5.43, Time: 0.73
+Itr: 8500, lr: 9.94E-04, loss: 6.88E-02, targ_ctg: 5.54, nnet_ctg: 5.45, Time: 0.73
+Itr: 8600, lr: 9.94E-04, loss: 6.85E-02, targ_ctg: 5.26, nnet_ctg: 5.32, Time: 0.73
+Itr: 8700, lr: 9.94E-04, loss: 7.44E-02, targ_ctg: 5.37, nnet_ctg: 5.42, Time: 0.73
+Itr: 8800, lr: 9.94E-04, loss: 6.51E-02, targ_ctg: 5.37, nnet_ctg: 5.27, Time: 0.73
+Itr: 8900, lr: 9.94E-04, loss: 6.27E-02, targ_ctg: 5.45, nnet_ctg: 5.49, Time: 0.73
+Solving 10000 states with GBFS with 9 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): -0.03(0.00/-0.03/-0.03)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 1.00(0.02/0.92/1.03)
+Back Steps: 2, %Solved: 100.00, avgSolveSteps: 1.87, CTG Mean(Std/Min/Max): 1.86(0.50/-0.03/2.08)
+Back Steps: 3, %Solved: 100.00, avgSolveSteps: 2.72, CTG Mean(Std/Min/Max): 2.77(0.71/0.92/4.47)
+Back Steps: 4, %Solved: 99.85, avgSolveSteps: 3.56, CTG Mean(Std/Min/Max): 3.61(0.91/-0.03/4.97)
+Back Steps: 5, %Solved: 96.40, avgSolveSteps: 4.47, CTG Mean(Std/Min/Max): 4.60(1.06/0.92/6.55)
+Back Steps: 6, %Solved: 91.89, avgSolveSteps: 5.30, CTG Mean(Std/Min/Max): 5.41(1.21/-0.03/7.62)
+Back Steps: 7, %Solved: 76.13, avgSolveSteps: 5.95, CTG Mean(Std/Min/Max): 6.03(1.13/1.01/8.12)
+Back Steps: 8, %Solved: 65.17, avgSolveSteps: 6.48, CTG Mean(Std/Min/Max): 6.48(1.16/1.98/8.43)
+Back Steps: 9, %Solved: 31.08, avgSolveSteps: 6.31, CTG Mean(Std/Min/Max): 6.97(1.00/2.99/8.47)
+Back Steps: 10, %Solved: 28.83, avgSolveSteps: 6.84, CTG Mean(Std/Min/Max): 7.17(0.95/3.89/8.54)
+Back Steps: 11, %Solved: 15.47, avgSolveSteps: 6.50, CTG Mean(Std/Min/Max): 7.37(0.87/3.00/8.50)
+Back Steps: 12, %Solved: 11.41, avgSolveSteps: 7.11, CTG Mean(Std/Min/Max): 7.61(0.67/4.05/8.53)
+Back Steps: 13, %Solved: 6.16, avgSolveSteps: 6.17, CTG Mean(Std/Min/Max): 7.70(0.76/3.01/8.49)
+Back Steps: 14, %Solved: 2.10, avgSolveSteps: 7.71, CTG Mean(Std/Min/Max): 7.84(0.52/5.69/8.55)
+Back Steps: 15, %Solved: 2.70, avgSolveSteps: 6.78, CTG Mean(Std/Min/Max): 7.91(0.53/4.90/8.53)
+Test time: 10.13
+Last loss was 0.049468
+Updating target network
+Updating cost-to-go with value iteration
+0.89% (Total time: 5.73)
+11.61% (Total time: 9.34)
+22.32% (Total time: 12.88)
+33.93% (Total time: 16.78)
+44.64% (Total time: 20.34)
+55.36% (Total time: 23.90)
+66.96% (Total time: 27.73)
+77.68% (Total time: 31.28)
+88.39% (Total time: 33.88)
+100.00% (Total time: 35.06)
+Cost-to-go (mean/min/max): 5.47/0.00/9.45
+Training model for update number 9 for 1000 iterations
+Itr: 9000, lr: 9.94E-04, loss: 1.56E-01, targ_ctg: 5.57, nnet_ctg: 5.38, Time: 0.08
+Itr: 9100, lr: 9.94E-04, loss: 8.94E-02, targ_ctg: 5.51, nnet_ctg: 5.46, Time: 0.73
+Itr: 9200, lr: 9.94E-04, loss: 9.32E-02, targ_ctg: 5.63, nnet_ctg: 5.67, Time: 0.73
+Itr: 9300, lr: 9.94E-04, loss: 9.26E-02, targ_ctg: 5.38, nnet_ctg: 5.50, Time: 0.74
+Itr: 9400, lr: 9.93E-04, loss: 8.78E-02, targ_ctg: 5.57, nnet_ctg: 5.54, Time: 0.73
+Itr: 9500, lr: 9.93E-04, loss: 7.14E-02, targ_ctg: 5.51, nnet_ctg: 5.48, Time: 0.73
+Itr: 9600, lr: 9.93E-04, loss: 9.90E-02, targ_ctg: 5.44, nnet_ctg: 5.51, Time: 0.73
+Itr: 9700, lr: 9.93E-04, loss: 1.04E-01, targ_ctg: 5.55, nnet_ctg: 5.71, Time: 0.73
+Itr: 9800, lr: 9.93E-04, loss: 8.19E-02, targ_ctg: 5.38, nnet_ctg: 5.34, Time: 0.73
+Itr: 9900, lr: 9.93E-04, loss: 9.59E-02, targ_ctg: 5.64, nnet_ctg: 5.57, Time: 0.73
+Solving 10000 states with GBFS with 10 steps
+Back Steps: 0, %Solved: 100.00, avgSolveSteps: 0.00, CTG Mean(Std/Min/Max): -0.15(0.00/-0.15/-0.15)
+Back Steps: 1, %Solved: 100.00, avgSolveSteps: 1.00, CTG Mean(Std/Min/Max): 0.91(0.02/0.88/0.96)
+Back Steps: 2, %Solved: 100.00, avgSolveSteps: 1.92, CTG Mean(Std/Min/Max): 1.91(0.43/-0.15/2.11)
+Back Steps: 3, %Solved: 100.00, avgSolveSteps: 2.75, CTG Mean(Std/Min/Max): 2.74(0.69/0.88/3.41)
+Back Steps: 4, %Solved: 99.85, avgSolveSteps: 3.65, CTG Mean(Std/Min/Max): 3.73(0.81/-0.15/5.17)
+Back Steps: 5, %Solved: 97.75, avgSolveSteps: 4.44, CTG Mean(Std/Min/Max): 4.59(1.10/0.88/6.65)
+Back Steps: 6, %Solved: 90.54, avgSolveSteps: 5.20, CTG Mean(Std/Min/Max): 5.35(1.25/1.95/7.86)
+Back Steps: 7, %Solved: 81.83, avgSolveSteps: 5.95, CTG Mean(Std/Min/Max): 6.05(1.25/0.90/8.30)
+Back Steps: 8, %Solved: 65.17, avgSolveSteps: 6.53, CTG Mean(Std/Min/Max): 6.75(1.16/1.97/8.94)
+Back Steps: 9, %Solved: 48.50, avgSolveSteps: 6.96, CTG Mean(Std/Min/Max): 7.16(1.17/0.92/9.31)
+Back Steps: 10, %Solved: 28.83, avgSolveSteps: 6.96, CTG Mean(Std/Min/Max): 7.47(1.03/1.97/9.21)
+Back Steps: 11, %Solved: 22.67, avgSolveSteps: 7.17, CTG Mean(Std/Min/Max): 7.71(0.99/2.97/9.18)
+Back Steps: 12, %Solved: 13.21, avgSolveSteps: 6.95, CTG Mean(Std/Min/Max): 7.94(0.89/1.99/9.20)
+Back Steps: 13, %Solved: 9.61, avgSolveSteps: 7.62, CTG Mean(Std/Min/Max): 8.06(0.80/4.39/9.22)
+Back Steps: 14, %Solved: 3.60, avgSolveSteps: 7.67, CTG Mean(Std/Min/Max): 8.29(0.70/4.03/9.30)
+Back Steps: 15, %Solved: 3.00, avgSolveSteps: 7.40, CTG Mean(Std/Min/Max): 8.35(0.62/5.53/9.24)
+Test time: 10.79
+Last loss was 0.069426
+Updating target network
+Done

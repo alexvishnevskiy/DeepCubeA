@@ -4,6 +4,7 @@ from typing import List, Tuple
 from random import randrange
 import pandas as pd
 from sympy.combinatorics import Permutation 
+from numpy import ndarray
 import torch.nn as nn
 
 
@@ -209,8 +210,47 @@ class SantaEnvironment(Environment):
     def _init_mappings(self):
         self._int2moves = dict(zip(range(len(self._moves)), self._moves.keys()))
         self._moves2int = {v: k for k, v in self._int2moves.items()}
+        
+    def prev_state(self, states: List[SantaState], action: int):
+        str_move = self._int2moves[action] #convert int action to str action
+        rev_action = self._moves2int[f'-{str_move}' if str_move[0] != '-' else str_move[1:]] #get reverse action
+        return self.next_state(states, rev_action)[0]
     
     def get_action(self, action: int) -> Permutation:
         return self._moves[self._int2moves[action]]
         
         
+class CubeEnvironment(SantaEnvironment):
+    def __init__(self, df_info_path, df_puzzles_path):
+        super().__init__(df_info_path, df_puzzles_path)
+        
+    def get_num_moves(self) -> int:
+        return len(self._moves)
+    
+    def generate_goal_states(self, num_states: int, np_format: bool = False):
+        if np_format:
+            goal_np: np.ndarray = np.expand_dims(self.goal_state.copy(), 0)
+            solved_states: np.ndarray = np.repeat(goal_np, num_states, axis=0)
+        else:
+            solved_states: List[SantaState] = [SantaState(self.goal_state.copy()) for _ in range(num_states)]
+
+        return solved_states
+    
+    def state_to_nnet_input(self, states) -> List[ndarray]:
+        states_np = np.stack([state.state for state in states], axis=0)
+
+        representation_np = states_np.astype(self.dtype)
+        representation = [representation_np]
+        return representation
+    
+    def is_solved(self, states) -> ndarray:
+        states_np = np.stack([state.state for state in states], axis=0)
+        is_equal = np.equal(states_np, np.expand_dims(self.goal_state, 0))
+        return np.all(is_equal, axis=1)
+    
+    def next_state(self, states: List[SantaState], action: int):
+        action = self.get_action(action)
+        states_next = [SantaState(action(state.state)) for state in states]
+        transition_costs = [1.0 for _ in range(len(states))]
+        return states_next, transition_costs
+    

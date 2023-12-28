@@ -28,6 +28,12 @@ def get_environment(env_name: str, **kwargs) -> Environment:
         df_info_path = kwargs.get('df_info_path', '/mnt/hdd/santa/data/puzzle_info.csv')
         df_puzzles_path = kwargs.get('df_puzzles_path', '/mnt/hdd/santa/data/puzzles.csv')
         env = Cube2x2(df_info_path, df_puzzles_path)
+    elif env_name == 'cube3x3':
+        from environments.cube3x3 import Cube3x3
+        
+        df_info_path = kwargs.get('df_info_path', '/mnt/hdd/santa/data/puzzle_info.csv')
+        df_puzzles_path = kwargs.get('df_puzzles_path', '/mnt/hdd/santa/data/puzzles.csv')
+        env = Cube3x3(df_info_path, df_puzzles_path)
     else:
         raise ValueError('No known environment %s' % env_name)
 
