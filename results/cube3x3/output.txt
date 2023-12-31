@@ -1,0 +1,1 @@
+device: cuda:0, devices: [0], on_gpu: True

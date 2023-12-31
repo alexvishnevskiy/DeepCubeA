@@ -4,6 +4,8 @@ from typing import List, Tuple
 from random import randrange
 import pandas as pd
 from sympy.combinatorics import Permutation 
+from utils.pytorch_models import ResnetModel
+from torch.nn import Module
 from numpy import ndarray
 import torch.nn as nn
 
@@ -186,26 +188,39 @@ class SantaState(State):
 
 
 class SantaEnvironment(Environment):
-    def __init__(self, df_info_path, df_puzzles_path):
+    def __init__(self, df_info_path, df_puzzles_path, num_wildcards = 0):
         super().__init__()
+        self.num_wildcards = num_wildcards
         # initialize moves and goal state
         self._set_goal_state(df_puzzles_path)
         self._init_mappings()
         
+    def get_num_moves(self) -> int:
+        return len(self._moves)
+        
     def _set_goal_state(self, df_puzzles_path):
         df_puzzles = pd.read_csv(df_puzzles_path)
+        # TODO: redo may be different
         sol_state_str = df_puzzles[df_puzzles['puzzle_type'] == self.__name__].iloc[0]['solution_state']
         sol_state_list = sol_state_str.split(';')
         
-        # get mapping color -> int
+        # get mapping color -> int, int->color
         self._letter2int = {}
         i = 0
         for color in sol_state_list:
             if color not in self._letter2int:
                 self._letter2int[color] = i
-                i += 1
-        
+                i += 1   
+                       
+        self._int2letter = {v: k for k, v in self._letter2int.items()}
         self.goal_state = np.array([self._letter2int[color] for color in sol_state_list])
+        
+    def is_solved(self, states) -> np.ndarray:
+        states_np = np.stack([state.state for state in states], axis=0)
+        is_equal = np.equal(states_np, np.expand_dims(self.goal_state, 0))
+        unequal_count = np.sum(~is_equal, axis=1)
+        is_similar = unequal_count <= self.num_wildcards
+        return is_similar
     
     def _init_mappings(self):
         self._int2moves = dict(zip(range(len(self._moves)), self._moves.keys()))
@@ -216,19 +231,9 @@ class SantaEnvironment(Environment):
         rev_action = self._moves2int[f'-{str_move}' if str_move[0] != '-' else str_move[1:]] #get reverse action
         return self.next_state(states, rev_action)[0]
     
-    def get_action(self, action: int) -> Permutation:
-        return self._moves[self._int2moves[action]]
-        
-        
-class CubeEnvironment(SantaEnvironment):
-    def __init__(self, df_info_path, df_puzzles_path):
-        super().__init__(df_info_path, df_puzzles_path)
-        
-    def get_num_moves(self) -> int:
-        return len(self._moves)
-    
     def generate_goal_states(self, num_states: int, np_format: bool = False):
         if np_format:
+            # TODO: may be different goal states 
             goal_np: np.ndarray = np.expand_dims(self.goal_state.copy(), 0)
             solved_states: np.ndarray = np.repeat(goal_np, num_states, axis=0)
         else:
@@ -243,14 +248,46 @@ class CubeEnvironment(SantaEnvironment):
         representation = [representation_np]
         return representation
     
-    def is_solved(self, states) -> ndarray:
-        states_np = np.stack([state.state for state in states], axis=0)
-        is_equal = np.equal(states_np, np.expand_dims(self.goal_state, 0))
-        return np.all(is_equal, axis=1)
+    def get_action(self, action: int) -> Permutation:
+        return self._moves[self._int2moves[action]]
     
     def next_state(self, states: List[SantaState], action: int):
         action = self.get_action(action)
-        states_next = [SantaState(action(state.state)) for state in states]
+        # states_next = [SantaState(action(state.state)) for state in states] #sumpy indexing
+        states_np = np.stack([state.state for state in states], axis=0)
+        states_next_np = states_np[np.arange(states_np.shape[0])[:, None], action]
+        states_next = [SantaState(state) for state in states_next_np] #numpy indexing
         transition_costs = [1.0 for _ in range(len(states))]
         return states_next, transition_costs
     
+    def strState2SantaState(self, state: str) -> SantaState:
+        list_state = state.split(';')
+        narray_state = np.array([self._letter2int[color] for color in list_state])
+        santa_state = SantaState(narray_state)
+        return santa_state
+    
+    def santaState2strState(self, state: SantaState) -> str:
+        list_state = [self._int2letter[state] for state in state.state]
+        str_state = ';'.join(list_state)
+        return str_state
+        
+        
+class CubeEnvironment(SantaEnvironment):
+    def __init__(self, df_info_path, df_puzzles_path):
+        super().__init__(df_info_path, df_puzzles_path)
+        self.dtype = np.uint8
+    
+    def get_nnet_model(self) -> Module:
+        state_dim: int = (self.cube_len ** 2) * 6
+        nnet = ResnetModel(state_dim, 6, 8, 5000, 1000, 4, 1, True)
+        return nnet
+    
+class WreathEnvironment(SantaEnvironment):
+    def __init__(self, df_info_path, df_puzzles_path):
+        super().__init__(df_info_path, df_puzzles_path)
+        self.dtype = np.uint8
+    
+    def get_nnet_model(self) -> Module:
+        state_dim: int = self.wreath_size*2-2
+        nnet = ResnetModel(state_dim, 6, 8, 5000, 1000, 4, 1, True)
+        return nnet

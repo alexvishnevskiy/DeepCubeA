@@ -34,6 +34,24 @@ def get_environment(env_name: str, **kwargs) -> Environment:
         df_info_path = kwargs.get('df_info_path', '/mnt/hdd/santa/data/puzzle_info.csv')
         df_puzzles_path = kwargs.get('df_puzzles_path', '/mnt/hdd/santa/data/puzzles.csv')
         env = Cube3x3(df_info_path, df_puzzles_path)
+    elif env_name == 'cube4x4':
+        from environments.cube4x4 import Cube4x4
+        
+        df_info_path = kwargs.get('df_info_path', '/mnt/hdd/santa/data/puzzle_info.csv')
+        df_puzzles_path = kwargs.get('df_puzzles_path', '/mnt/hdd/santa/data/puzzles.csv')
+        env = Cube4x4(df_info_path, df_puzzles_path)
+    elif env_name == 'wreath21x21':
+        from environments.wreath21x21 import Wreath21x21
+        
+        df_info_path = kwargs.get('df_info_path', '/mnt/hdd/santa/data/puzzle_info.csv')
+        df_puzzles_path = kwargs.get('df_puzzles_path', '/mnt/hdd/santa/data/puzzles.csv')
+        env = Wreath21x21(df_info_path, df_puzzles_path)
+    elif env_name == 'wreath33x33':
+        from environments.wreath33x33 import Wreath33x33
+        
+        df_info_path = kwargs.get('df_info_path', '/mnt/hdd/santa/data/puzzle_info.csv')
+        df_puzzles_path = kwargs.get('df_puzzles_path', '/mnt/hdd/santa/data/puzzles.csv')
+        env = Wreath33x33(df_info_path, df_puzzles_path)
     else:
         raise ValueError('No known environment %s' % env_name)
 
