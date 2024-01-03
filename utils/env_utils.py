@@ -52,6 +52,12 @@ def get_environment(env_name: str, **kwargs) -> Environment:
         df_info_path = kwargs.get('df_info_path', '/mnt/hdd/santa/data/puzzle_info.csv')
         df_puzzles_path = kwargs.get('df_puzzles_path', '/mnt/hdd/santa/data/puzzles.csv')
         env = Wreath33x33(df_info_path, df_puzzles_path)
+    elif env_name == 'wreath100x100':
+        from environments.wreath100x100 import Wreath100x100
+        
+        df_info_path = kwargs.get('df_info_path', '/mnt/hdd/santa/data/puzzle_info.csv')
+        df_puzzles_path = kwargs.get('df_puzzles_path', '/mnt/hdd/santa/data/puzzles.csv')
+        env = Wreath100x100(df_info_path, df_puzzles_path)
     else:
         raise ValueError('No known environment %s' % env_name)
 
